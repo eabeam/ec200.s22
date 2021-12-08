@@ -1,0 +1,92 @@
+---
+title: Week 3 - Statistics Review
+sitetitle: Week 3
+summary: "EC200 - Week 3 Statistics Review (SW Chapter 3)"
+
+date: "2021-08-25"
+start_date: "2021-09-13"
+end_date: "2021-09-17"
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Course content
+    weight: 3
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+pdf: /slides/ch3-slides.pdf
+thumb: /slides/ch3-slides.png
+
+
+
+---
+
+## Overview
+
+Welcome to Week 3! Statistical review continues apace. 
+
+As before, what you should do this final week before the exam depends on your background:
+
+### I took EC170/STAT141 recently and remember some stuff
+1. Read through SW, and dig deeper into anything that doesn't look familiar. 
+2. Watch the class videos and complete video quiz.
+3. Use the Khan Academy to clarify anything you feel a bit fuzzy on. 
+4. Make sure you can do the practice problems. 
+
+
+### Everyone else
+1. Start by reviewing the Khan Academy videos 
+2. Work through *all* the Khan Academy practice problems. 
+3. Watch the class videos and complete video quiz.
+4. Head into the practice problems, and review concepts where you are still stuck.
+
+
+## Reading Guide
+
+**Chapter 2: Review of Probability**
+
+- SW 2.5 Random Sampling and the Distribution of the Sample Average 
+  - [ <i class="fas fa-tv"> </i> What is a sampling distribution?](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap#what-is-sampling-distribution)
+  
+- SW 2.6 Large-sample approximations to sampling distributions
+  - *Get that central limit theorem!*
+  - [ <i class="fas fa-tv"> </i> Sampling distribution of a sample   mean](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap#sampling-distribution-mean) (relevant for 2.5 as well)
+
+**Chapter 3: Review of Statistics**
+
+This is the material you should know,  along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! 
+
+
+
+- SW 3.1	Estimation of the population mean 
+  - Don’t worry too much about BLUE, we’ll come back to it. But make sure you get bias, consistency, and efficiency
+   - [<i class="fas fa-tv"> </i> Discrete random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#discrete-random-variables)
+- SW 3.2	Hypothesis tests concerning the population mean
+  - [<i class="fas fa-tv"> </i> Testing hypotheses about a mean](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap#one-sample-t-test-mean)
+
+- SW 3.3	Confidence intervals for the population mean
+  -  [<i class="fas fa-tv"> </i> Introduction to confidence intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#introduction-confidence-intervals)
+   - [<i class="fas fa-tv"> </i> Confidence intervals for means](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#one-sample-t-interval-mean)
+
+- SW 3.4 Comparing means from different populations (This is covered in updated slides and class, but *not* in the lecture video below)
+  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. **Make sure you can use formulas 3.19 and 3.20** 
+- **Skip SW 3.5/3.6**
+- SW 3.7	Scatterplots, the sample covariance, and the sample correlation
+  - [<i class="fas fa-tv"> </i> Correlation coefficients](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap#correlation-coefficient-r)
+
+## Slides
+
+`r blogdown::shortcode("slides")`
+
+## Videos
+
+- [Statistics Review](https://youtu.be/dMFQw0DcOgU)
+Estimators/estimates, confidence intervals, and hypothesis testing
+`r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`
+
+

@@ -1,0 +1,46 @@
+---
+title: Week 2 - Probability Review
+sitetitle: Week 2
+summary: "EC200 - Week 2 Probability Review (SW Chapter 2.4)"
+
+date: "2021-08-25"
+start_date: "2021-09-06"
+end_date: "2021-09-10"
+
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Course content
+    weight: 2
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+pdf: /slides/ch2-04-slides.pdf
+thumb: /slides/ch2-04-slides.png
+
+
+
+---
+
+## Overview
+
+This is a short week, so we'll just focus on normal distributions and friends from sectoin 2.4 of SW. 
+
+
+## Reading Guide
+
+**Chapter 2: Review of Probability**
+
+- SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
+  - Normal distribution ~~and t-distribution~~ only. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
+  - [<i class="fas fa-tv"> </i> Z-scores](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/measuring-position/v/z-score-introduction) 
+  - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#stats-normal-distributions)
+  - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#normal-distributions-calculations)
+
+## Slides
+
+`r blogdown::shortcode("slides")`
+

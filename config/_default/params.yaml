@@ -116,10 +116,10 @@ instructor:
 # directions = ""
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-  office_hours: "Mondays and Wednesdays, 3:30-4:30pm"
+  office_hours: "Tuesdays and Thursdays, 4:10–5:10pm"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-# appointment_url: "https://calendly.com/emily-a-beam/15min"
+  appointment_url: "https://calendly.com/emily-a-beam/15min"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.

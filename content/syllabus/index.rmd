@@ -77,34 +77,34 @@ If you come into class without preparing, things will feel bad! Check the calend
 
 Our class meetings will be a combination of lecture, practice, and labs. 
 
-We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due before the next **Wednesday** class.
+We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due one week later.
 
 
 # Deadlines  {#deadlines-and-extensions .unnumbered}
 
--   All deadlines are at 2:20pm, and all assignments are due on Blackboard.
-
--   As a general rule, problem sets are due on Fridays at 2:20pm. Video
-    quizzes are usually due Mondays, and final labs are due on Wednesdays at 2:20pm.
-
+-   With the exception of a handful of research paper assignments, deadlines are at **2:50pm**.
+    -   As a general rule, problem sets are due on Thursdays at 2:50pm. Video
+    quizzes are usually due Tuesdays, and final labs bounce around depending on the schedule.
 -   Please submit all assignments through Blackboard. If you encounter
     technical issues, e-mail is a fine last resort.
+-   Late problem sets and labs will be penalized 10\% per day. Late video quizzes are not accepted.
+-   Regarding **research papers intermediate elements *only***, I have an *"extensions for all"* policy
+    - If you need an extension, request it by e-mail **before** the deadline and provide a proposed new deadline. 
+    - Some assignments build on previous ones, so be careful when requesting that you don't put yourself in a tricky position. I don't need to know why you need the extension. 
+    - If you exceed your revised deadline (or you request an extension *after* the due date), then     I will start applying the 10\% deduction per day. 
+    - This does not apply to the final submission, which remains fixed.
 
--   Late problem sets and labs will be penalized 10 percentage points per day. Late video quizzes are not accepted.
 
--   Regarding **research papers elements *only***, I have an *"extensions for all"* policy
-  - If you need an extension, request it by e-mail **before** the deadline and provide a proposed new deadline. 
-  - Some assignments build on previous ones, so be careful when requesting that you don't put       yourself in a tricky position. I don't need to know why you need the extension. 
-  - If you exceed your revised deadline (or you request an extension *after* the due date), then     I will start applying the 10 percentage point deduction per day. 
-
-
-# Class Engagement and attendance {#class-engagement-and-attendance .unnumbered}
+# Class engagement and attendance {#class-engagement-and-attendance .unnumbered}
 
 This is a challenging course, and you'll get the most out of it if you
 engage with the material both during and outside of class. You are
 responsible for finding a classmate or checking Blackboard for any
 content you may miss during class. 
 
+## What if I'm sick? 
+
+Please stay home! I can stream you in to class if you give me a heads up.
 
 # Grading {#grading .unnumbered}
 
@@ -147,7 +147,7 @@ content you may miss during class.
 # Quizzes {#quizzes .unnumbered}
 
 
-There are two unit exams (15% each) and one stats exam (5%). All quizzes are in-class and open note, but computers/tablets/phones are not permitted. 
+There are two unit exams (15% each) and one stats exam (5%). All exams are in-class and open note, but computers/tablets/phones are not permitted. 
 
 Quizzes are not explicitly cumulative, but you'll need to master skills from earlier
 chapters to tackle the newer material.
@@ -207,8 +207,7 @@ access\@uvm.edu;
 
 [UVM's policy on disability certification and student support](http://www.uvm.edu/~uvmppg/ppg/student/disability.pdf)
 
-[**Academic integrity:**](http://www.uvm.edu/~uvmppg/ppg/student/acadintegrity.pdf) Do not cheat, and do not plagarize. This policy
-addresses plagiarism, fabrication, collusion, and cheating:
+[**Academic integrity:**](http://www.uvm.edu/~uvmppg/ppg/student/acadintegrity.pdf) Do not cheat, and do not plagiarize. Although you are permitted to work together on problem sets and labs, the work you submit should be *your own*. This policy addresses plagiarism, fabrication, collusion, and cheating:
 
 
 [**Grade Appeals**](http://www.uvm.edu/~uvmppg/ppg/student/gradeappeals.pdf) If you would like to contest a grade, please follow

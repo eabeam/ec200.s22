@@ -1,13 +1,13 @@
 
 
 ---
-title: Week 10/11 - Panel data
-sitetitle: Week 10/11
-summary: "EC200 - Week 10/11 Regression with Panel Data (CH10)"
+title: Week 11/12 - Panel data
+sitetitle: Week 11/12
+summary: "EC200 - Week 11/12 Regression with Panel Data (CH10)"
 
-date: "2021-10-29"
-start_date: "2021-11-01"
-end_date: "2021-11-12"
+date: "2022-03-29"
+start_date: "2022-04-04"
+end_date: "2022-04-15"
 
   
   # Academic page type (do not modify).
@@ -15,7 +15,7 @@ type: docs
 menu:
   content:
     parent: Course content
-    weight: 10
+    weight: 11
     
 output:
   blogdown::html_page:

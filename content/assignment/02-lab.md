@@ -1,8 +1,8 @@
 ---
 title: "Lab 2: Do-files"
 linktitle: "Lab 2"
-date: "2021-09-13"
-due_date: "2021-09-22"
+date: "2022-01-27"
+due_date: "2022-02-08"
 due_time: "2:20 pm"
 toc: true
 menu:

@@ -1,8 +1,7 @@
 ---
 title: "Research Paper: Presentation"
 linktitle: "07 Presentation"
-date: "2021-11-16"
-
+date: "2022-04-14"
 menu:
   assignment:
     parent: Research Paper
@@ -12,11 +11,10 @@ output:
   blogdown::html_page:
     toc: true
 editor_options: 
-  chunk_output_type: console
   
+  chunk_output_type: console
 pdf: /slides/rp-presentation-sample.pdf
 thumb: /slides/rp-presentation-sample.png
-
 ---
 
 **Due date is rolling: your slides are due the day of your assigned presentation. Because we're running out of class, we can't do extensions!** 
@@ -59,7 +57,7 @@ Additional student examples are available on Blackboard (see **Gated Resources**
 
 ## Deliverables and due dates
 
-Your due date is the day you signed up for via Doodle poll: **December 06, 08, or 10 at 2:20pm**
+Your due date is the day you signed up for via Doodle poll: **May 03 or May 05 at 2:50pm**
 
  **On Blackboard:** Submit a copy of your slides **before** your presentation. 
 

@@ -5,7 +5,7 @@ title: Exam 1 - Stats
 sitetitle: Exam 1 - Stats
 summary: "EC200 - Exam 1 Prep (Statistics)"
 
-date: "2021-09-13"
+date: "2022-01-26"
 
 
   

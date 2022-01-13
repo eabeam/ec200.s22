@@ -1,9 +1,9 @@
 ---
 title: "Lab 6: Internal validity and LPM"
 linktitle: "Lab 6"
-date: "2021-11-01"
-due_date: "2021-11-10"
-due_time: "2:20 PM"
+date: "2022-03-29"
+due_date: "2022-04-07"
+due_time: "2:50 PM"
 menu:
   assignment:
     parent: Labs

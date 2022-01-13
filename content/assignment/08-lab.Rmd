@@ -1,9 +1,9 @@
 ---
 title: "Lab 8: Instrumental variables"
 linktitle: "Lab 8"
-date: "2021-11-30"
-due_date: "2021-12-08"
-due_time: "2:20 PM"
+date: "2022-04-26"
+due_date: "2022-05-05"
+due_time: "2:50 PM"
 menu:
   assignment:
     parent: Labs

@@ -4,8 +4,8 @@ sitetitle: Week 2
 summary: "EC200 - Week 2 Probability Review (SW Chapter 2.4)"
 
 date: "2021-08-25"
-start_date: "2021-09-06"
-end_date: "2021-09-10"
+start_date: "2022-01-24"
+end_date: "2022-01-28"
 
   # Academic page type (do not modify).
 type: docs

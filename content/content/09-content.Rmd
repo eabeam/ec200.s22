@@ -1,13 +1,13 @@
 
 
 ---
-title: Week 9 - Assessing Studies
-sitetitle: Week 9
-summary: "EC200 - Week 9 Assessing Studies Based on Multiple Regression (CH9)"
+title: Week 10 - Assessing Studies
+sitetitle: Week 10
+summary: "EC200 - Week 10 Assessing Studies Based on Multiple Regression (CH9)"
 
-date: "2021-10-20"
-start_date: "2021-10-29"
-end_date: "2021-11-01"
+date: "2022-03-22"
+start_date: "2022-03-28"
+end_date: "2022-04-01"
 
   
   # Academic page type (do not modify).
@@ -15,7 +15,7 @@ type: docs
 menu:
   content:
     parent: Course content
-    weight: 9
+    weight: 10
     
 output:
   blogdown::html_page:

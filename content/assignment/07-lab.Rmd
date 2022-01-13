@@ -1,9 +1,9 @@
 ---
 title: "Lab 7: Difference in differences"
 linktitle: "Lab 7"
-date: "2021-11-09"
-due_date: "2021-11-17"
-due_time: "2:20 PM"
+date: "2022-04-10"
+due_date: "2022-04-19"
+due_time: "2:50 PM"
 menu:
   assignment:
     parent: Labs

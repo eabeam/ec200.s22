@@ -1,13 +1,14 @@
 ---
 title: "Lab 3: Regression"
 linktitle: "Lab 3"
-date: "2021-09-27"
-due_date: "2021-10-06"
-due_time: "2:20 PM"
+date: "2022-02-09"
+due_date: "2022-02-07"
+due_time: "2:50 PM"
 menu:
   assignment:
     parent: Labs
     weight: 3
+    
 type: docs
 output:
   blogdown::html_page:

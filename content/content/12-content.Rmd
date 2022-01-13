@@ -1,13 +1,13 @@
 
 
 ---
-title: Week 13 - Instrumental Variables
-sitetitle: Week 13
-summary: "EC200 - Week 13 Instrumental Variables (CH12)"
+title: Week 14 - Instrumental Variables
+sitetitle: Week 14
+summary: "EC200 - Week 14 Instrumental Variables (CH12)"
 
-date: "2021-11-18"
-start_date: "2021-11-29"
-end_date: "2021-12-03"
+date: "2022-04-18"
+start_date: "2022-04-25"
+end_date: "2022-04-29"
 
   
   # Academic page type (do not modify).
@@ -15,7 +15,7 @@ type: docs
 menu:
   content:
     parent: Course content
-    weight: 12
+    weight: 14
     
 output:
   blogdown::html_page:

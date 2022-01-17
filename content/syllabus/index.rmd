@@ -18,6 +18,9 @@ menu: syllabus
 
 `r blogdown::shortcode("courseinfo")`
 
+
+
+
 ![](correlation.png)
 
 # Course description {#course-description .unnumbered}
@@ -112,13 +115,14 @@ Please stay home! I can stream you in to class if you give me a heads up.
 
 |    Assignment    |   Percent
 | :------------- | :----------: | 
-| Lecture video quizzes                    |           5%    |
-| Labs                                  |        10%   |
-| Problem sets                           |       10%   |
+| Attendance                   |           5%    |
+| Lecture video quizzes        |           4%    |
+| Labs                              |      8%   |
+| Problem sets                      |      8%   |
 | Exams (3 quizzes at 5%, 15%, 15%)       |      35%   |
 | Research paper                           |     40%   |
 
-*I will drop your lowest lecture quiz*
+*You can miss **two** classes without any penalty*
 
 ## Grading distribution {#grading-distribution .unnumbered}
 
@@ -187,6 +191,14 @@ chapters to tackle the newer material.
 <!--     project if you decide not to use Stata, and you will still be -->
 <!--     responsible for any Stata-related questions that come up on quizzes. -->
 
+
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1482505999441227777')
+```
+
+
+
 # [I am in college and having some problems]{#i-am-having-some-problems .unnumbered}
 
 Check out available [resources](/bonus/ihaveproblems).
@@ -220,4 +232,9 @@ the rights of students regarding access to, and privacy of their student
 educational records as provided for in the Family Educational Rights and
 Privacy Act (FERPA) of 1974.
 
+
+
+
+<!-- ![](corr_caus.jpg)^[https://twitter.com/DBelardoMD/status/1482505999441227777?s=20]
+-->
 

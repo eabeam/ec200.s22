@@ -71,13 +71,13 @@ areg income i.educ,robust abosrb(bpl)
 2. You can exclude the prefix and just do `i.var` to create a bunch of indicator variables so long as your variable is *numeric*
 3. You can use `areg` to "absorb" a set of fixed effects - they will not be reported in your output, but they will be estimated. This method is less efficient than `xtreg` becuase you're using up degrees of freedom.
 
-
+<!--
 ## Video 
 
 
 ### [Video: Class Recording 10 November 2021](https://youtu.be/-c1PtIZ7VCI)
 `r htmltools::HTML("{{< youtube -c1PtIZ7VCI >}}")`
-
+-->
 
 
 ## Exercises

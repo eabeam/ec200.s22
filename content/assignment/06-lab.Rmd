@@ -67,10 +67,10 @@ $\beta_1$ means that a 1-year increase in age is associated with a $\beta_1$ **p
 
 For great slides on this (and a deeper dive), check out [this resource](https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html)!
 
-
+<!--
 ## [Video: Class Recording 03 November 2021](https://youtu.be/ljNrBLtfeSc)
 `r htmltools::HTML("{{< youtube ljNrBLtfeSc >}}")`
-
+--> 
 
 ## Lab 6 Worksheet
 ### What do I submit?

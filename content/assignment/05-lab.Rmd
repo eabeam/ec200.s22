@@ -90,9 +90,9 @@ tab _merge    // check out merge
 
 list
 ```
-
+<!--
 ## Lab Video 
-
+-->
 
 `r htmltools::HTML("{{< youtube 8yfXvk8QYy0 >}}")`
 

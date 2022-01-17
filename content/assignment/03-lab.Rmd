@@ -138,7 +138,8 @@ There are three characteristics of "well-behaved" residuals:
 We don't want to overweight the importance of this, but it can be a helpful diagnostic to look for outliers, strange patterns. 
 --> 
 
-
+<!--
 ## Video Recording
 
 `r htmltools::HTML("{{< youtube ca_37XwU8og >}}")`
+-->

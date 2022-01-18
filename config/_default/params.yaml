@@ -135,7 +135,7 @@ course:
   number: "EC200"
   semester: "Fall 2022"
   days: "TTH"
-  time: "2:40–4:05"
+  time: "2:50–4:05"
   dates: "January 18 - May 5"
   location: "Lafayette L407"
   #github: "andrewheiss/datavizs21.classes.andrewheiss.com"

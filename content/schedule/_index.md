@@ -28,7 +28,7 @@ What's the plan?
 | ||| | ||
 |2 |||**Probability/Statistics Review (CH3)**  | ||
 |  | 25 Jan | Tu | [Lab 1: Getting to know Stata](/assignment/01-lab) | [Download Stata](https://software.uvm.edu/) | |
-|  | 27 Jan | Th | [Statistics review (2.5-2.6, 3)](/content/03-content)|[Read CH2.5-2.6 and CH3, watch video (24:31)](/content/03-content) | [<i class="fas fa-tv"></i> VQ2 (CH3)](https://bb.uvm.edu)   |
+|  | 27 Jan | Th | [Statistics review (2.5-2.6, 3)](/content/02-content)|[Read CH2.5-2.6 and CH3, watch video (24:31)](/content/02-content) | [<i class="fas fa-tv"></i> VQ2 (CH3)](https://bb.uvm.edu)   |
 | ||| | ||
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
 |  | 01 Feb | Tu | [Lab 2: Do-files](/assignment/02-lab) / [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  || [<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)|

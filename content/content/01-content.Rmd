@@ -48,24 +48,30 @@ What you should do for this three-week unit depends on your background:
 
 ## Reading Guide for Week 1
 
-**Chapter 2.1-2.3: Review of Probability**
+**Chapter 2.1-2.4: Review of Probability**
 
-This is the material you should already know,  along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! *Note that most links take you a direct video, but there are also relevant videos in the accompanying playlist.*
+This is the material you should already know, along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! *Note that most links take you a direct video, but there are also relevant videos in the accompanying playlist.*
 
 
-- SW 2.1 Random Variables and Probability Distributions 
-  - [<i class="fas fa-tv"> </i> Introduction to random variables and probability distributions variables (playlist)](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/discrete-random-variables/v/theoretical-probability-distribution-example-tables)
-  - [<i class="fas fa-tv"> </i> Mean and standard deviation of random variables (playlist)](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/xfb5d8e68:mean-standard-deviation-random-variables/v/expected-value-of-a-discrete-random-variable)
-   - [<i class="fas fa-tv"> </i> Conditional probability](https://www.khanacademy.org/math/ap-statistics/probability-ap#stats-conditional-probability)
-- SW 2.2 Expected Values, Mean, and Variance 
+### SW 2.1 Random Variables and Probability Distributions 
+  - [<i class="fas fa-tv"> </i> Introduction to random variables and probability distributions variables ](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/discrete-random-variables/v/discrete-probability-distribution) *(entire playlist, starting with "Constructing a probability distribution for a random varible")*
+  - [<i class="fas fa-tv"> </i> Mean and standard deviation of random variables ](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/xfb5d8e68:mean-standard-deviation-random-variables/v/expected-value-of-a-discrete-random-variable) *(entire playlist)*
+   - [<i class="fas fa-tv"> </i> Conditional probability](https://www.khanacademy.org/math/ap-statistics/probability-ap/stats-conditional-probability/v/testing-independence-from-experimental-data) *(entire playlist)*
+
+### SW 2.2 Expected Values, Mean, and Variance 
   - You only need a general knowledge of kurtosis and skew. 
-  - [<i class="fas fa-tv"> </i> Transforming random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/transforming-random-variables/v/impact-of-scaling-and-shifting-random-variables)
-- SW 2.3 Two Random Variables 
+  - [<i class="fas fa-tv"> </i> Transforming random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/transforming-random-variables/v/impact-of-scaling-and-shifting-random-variables) *(entire playlist, just 3 videos)*
+
+### SW 2.3 Two Random Variables 
   - Law of iterated expectations can be skimmed 
-	- Make sure you’re good with key concept box 2.3!
-  - [<i class="fas fa-tv"> </i> Combining random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#combining-random-variables)
+	- Make sure that you're good with key concept box 2.3!
+  - [<i class="fas fa-tv"> </i> Combining random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/combining-random-variables/v/mean-of-sum-and-difference-of-random-variables) *(entire playlist)*
 
-
+### SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
+  - **Normal distribution only**, but we'll discuss t-distributions a little bit. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
+  - [<i class="fas fa-tv"> </i> Z-scores](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/measuring-position/v/z-score-introduction)  *(entire playlist)*
+  - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/stats-normal-distributions/v/ck12-org-normal-distribution-problems-qualitative-sense-of-normal-distributions) *not explicitly covered, but extremely useful review for intuition*
+  - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/normal-distributions-calculations/v/z-table-for-proportion-below) *(entire playlist, walks through all the possible ways of working w/ normal tables)*
     
 ## Slides
 
@@ -73,6 +79,8 @@ This is the material you should already know,  along with supports from [Khan Ac
 
 
 ## Videos
+
+*Note that there is no pre-recorded coverage of normal distributions*
 
 - [Probability Review - SW 2.1-2.3](https://youtu.be/SYc3ccB872s)
 

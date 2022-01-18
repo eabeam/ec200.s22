@@ -69,7 +69,7 @@ privacy_pack: false
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page:
-  repo_url: 'https://github.com/andrewheiss/datavizs21.classes.andrewheiss.com'
+  repo_url: 'https://github.com/eabeam/ec200.s22'
   content_dir: ''
   repo_branch: master
   editable:
@@ -116,7 +116,7 @@ instructor:
 # directions = ""
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-  office_hours: "Tuesdays and Thursdays, 4:10–5:10pm"
+  office_hours: "Tuesdays 4:10–5:10pm, Wednesdays 2–3pm"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
   appointment_url: "https://calendly.com/emily-a-beam/meeting"

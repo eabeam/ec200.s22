@@ -1,9 +1,39 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-%
-\documentclass[
-]{article}
+\documentclass[11pt]{article}
+
+
+
+
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\usepackage{natbib}
+\usepackage[french,english]{babel}
+\usepackage{numprint}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{hyperref}\hypersetup{colorlinks=true}
+
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{calc}
+ \setlength{\tabcolsep}{8pt}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+\usepackage[bottom]{footmisc}
+\pagestyle{fancy}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{cancel}
+\usepackage{multicol}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -16,71 +46,44 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Syllabus},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\titleformat{\section}
+  {\normalfont\Large\scshape\bfseries}{\thesection}{1em}{}
+  \titlespacing{\section}{0pt}{10pt}{0pt}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesection}{1em}{}
+  \titlespacing{\subsection}{0pt}{6pt}{0pt}
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\newenvironment{itemize*}%
 
-\title{Syllabus}
-\author{}
-\date{2021-08-19}
-
+  
+\lhead{EC200 - Econometrics and Applications}
+\rhead{Version: \today}
+\setlength\parskip{0.10in}
 \begin{document}
-\maketitle
+\thispagestyle{plain}
+\singlespacing
 
-\texttt{r\ blogdown::shortcode("courseinfo")}
 
-\includegraphics{correlation.png}
+Version: \today \hfill Fall 2021\\
+EC200: Econometrics and Applications
+%\vspace{1.5cm}
+\begin{center}
+\Large{\textbf{Syllabus}}\\
+\end{center}
+\bigskip
+
+\begin{tabular}{l l l}
+  Dr. Emily Beam &    233 Old Mill &  emily.beam\at uvm.edu\\\\
+ Meetings& TTh   2:50–4:05 & Lafayette L407\\
+ Office hours: & T 4:10–5:10pm, W 2–3pm&  or schedule an appointment
+
+\end{tabular}
+
+
+%\texttt{r\ blogdown::shortcode("courseinfo")}
+
+\includegraphics[scale=0.7]{correlation.png}
 
 \hypertarget{course-description}{%
 \section*{Course description}\label{course-description}}
@@ -168,52 +171,69 @@ Our class meetings will be a combination of lecture, practice, and labs.
 We will not have labs every week, but when we do, they will be on
 Wednesdays. During labs you should bring a laptop to class. I will demo
 some concepts and commands and give you time to practice. A final
-version of your \href{/assignment\#labs}{lab} will be due before the
-next \textbf{Wednesday} class.
+version of your \href{/assignment\#labs}{lab} will be due one week
+later.
 
 \hypertarget{deadlines-and-extensions}{%
 \section*{Deadlines}\label{deadlines-and-extensions}}
 \addcontentsline{toc}{section}{Deadlines}
 
 \begin{itemize}
+\tightlist
 \item
-  All deadlines are at 2:20pm, and all assignments are due on
-  Blackboard.
-\item
-  As a general rule, problem sets are due on Fridays at 2:20pm. Video
-  quizzes are usually due Mondays, and final labs are due on Wednesdays
-  at 2:20pm.
+  With the exception of a handful of research paper assignments,
+  deadlines are at \textbf{2:50pm}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    As a general rule, problem sets are due on Thursdays at 2:50pm.
+    Video quizzes are usually due Tuesdays, and final labs bounce around
+    depending on the schedule.
+  \end{itemize}
 \item
   Please submit all assignments through Blackboard. If you encounter
   technical issues, e-mail is a fine last resort.
 \item
-  Late problem sets and labs will be penalized 10 percentage points per
-  day. Late video quizzes are not accepted.
+  Late problem sets and labs will be penalized 10\% per day. Late video
+  quizzes are not accepted.
 \item
-  Regarding \textbf{research papers elements \emph{only}}, I have an
-  \emph{``extensions for all''} policy
-\item
-  If you need an extension, request it by e-mail \textbf{before} the
-  deadline and provide a proposed new deadline.
-\item
-  Some assignments build on previous ones, so be careful when requesting
-  that you don't put yourself in a tricky position. I don't need to know
-  why you need the extension.
-\item
-  If you exceed your revised deadline (or you request an extension
-  \emph{after} the due date), then I will start applying the 10
-  percentage point deduction per day.
+  Regarding \textbf{research papers intermediate elements \emph{only}},
+  I have an \emph{``extensions for all''} policy
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you need an extension, request it by e-mail \textbf{before} the
+    deadline and provide a proposed new deadline.
+  \item
+    Some assignments build on previous ones, so be careful when
+    requesting that you don't put yourself in a tricky position. I don't
+    need to know why you need the extension.
+  \item
+    If you exceed your revised deadline (or you request an extension
+    \emph{after} the due date), then I will start applying the 10\%
+    deduction per day.
+  \item
+    This does not apply to the final submission, which remains fixed.
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{class-engagement-and-attendance}{%
-\section*{Class Engagement and
+\section*{Class engagement and
 attendance}\label{class-engagement-and-attendance}}
-\addcontentsline{toc}{section}{Class Engagement and attendance}
+\addcontentsline{toc}{section}{Class engagement and attendance}
 
 This is a challenging course, and you'll get the most out of it if you
 engage with the material both during and outside of class. You are
 responsible for finding a classmate or checking Blackboard for any
 content you may miss during class.
+
+\hypertarget{what-if-im-sick}{%
+\subsection{What if I'm sick?}\label{what-if-im-sick}}
+
+Please stay home! I can stream you in to class if you give me a heads
+up.
 
 \hypertarget{grading}{%
 \section*{Grading}\label{grading}}
@@ -228,15 +248,16 @@ content you may miss during class.
 Assignment & Percent \\
 \midrule
 \endhead
-Lecture video quizzes & 5\% \\
-Labs & 10\% \\
-Problem sets & 10\% \\
+Attendance & 5\% \\
+Lecture video quizzes & 4\% \\
+Labs & 8\% \\
+Problem sets & 8\% \\
 Exams (3 quizzes at 5\%, 15\%, 15\%) & 35\% \\
 Research paper & 40\% \\
 \bottomrule
 \end{longtable}
 
-\emph{I will drop your lowest lecture quiz}
+\emph{You can miss \textbf{two} classes without any penalty}
 
 \hypertarget{grading-distribution}{%
 \subsection*{Grading distribution}\label{grading-distribution}}
@@ -275,8 +296,8 @@ Range & Grade \\
 \section*{Quizzes}\label{quizzes}}
 \addcontentsline{toc}{section}{Quizzes}
 
-There are two unit exams (15\% each) and one stats exam (5\%). All
-quizzes are in-class and open note, but computers/tablets/phones are not
+There are two unit exams (15\% each) and one stats exam (5\%). All exams
+are in-class and open note, but computers/tablets/phones are not
 permitted.
 
 Quizzes are not explicitly cumulative, but you'll need to master skills
@@ -322,8 +343,9 @@ from earlier chapters to tackle the newer material.
   will be able to provide is limited.
 \end{enumerate}
 
+
 \hypertarget{i-am-in-college-and-having-some-problems}{%
-\section{\texorpdfstring{\protect\hypertarget{i-am-having-some-problems}{}{I
+\section*{\texorpdfstring{\protect\hypertarget{i-am-having-some-problems}{}{I
 am in college and having some
 problems}}{I am in college and having some problems}}\label{i-am-in-college-and-having-some-problems}}
 
@@ -348,8 +370,10 @@ Contact \href{http://www.uvm.edu}{ACCESS}: A170 Living/Learning Center;
 policy on disability certification and student support}
 
 \href{http://www.uvm.edu/~uvmppg/ppg/student/acadintegrity.pdf}{\textbf{Academic
-integrity:}} Do not cheat, and do not plagarize. This policy addresses
-plagiarism, fabrication, collusion, and cheating:
+integrity:}} Do not cheat, and do not plagiarize. Although you are
+permitted to work together on problem sets and labs, the work you submit
+should be \emph{your own}. This policy addresses plagiarism,
+fabrication, collusion, and cheating:
 
 \href{http://www.uvm.edu/~uvmppg/ppg/student/gradeappeals.pdf}{\textbf{Grade
 Appeals}} If you would like to contest a grade, please follow the

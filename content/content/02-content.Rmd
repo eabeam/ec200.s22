@@ -28,7 +28,7 @@ thumb: /slides/ch3-slides.png
 
 ## Overview
 
-Welcome to Week 3! Statistical review continues apace. 
+Welcome to Week 2! Statistical review continues apace. 
 
 As before, what you should do this final week before the exam depends on your background:
 

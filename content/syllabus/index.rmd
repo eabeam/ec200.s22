@@ -80,7 +80,7 @@ If you come into class without preparing, things will feel bad! Check the calend
 
 Our class meetings will be a combination of lecture, practice, and labs. 
 
-We will not have labs every week, but when we do, they will be on Wednesdays. During labs you should bring a laptop to class. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due one week later.
+We will have eight labs throughout the class. During labs you should bring a laptop to class. If you don't have one, that's fine, but you'll need to work with a partner. I will demo some concepts and commands and give you time to practice. A final version of your [lab](/assignment#labs) will be due one week later.
 
 
 # Deadlines  {#deadlines-and-extensions .unnumbered}

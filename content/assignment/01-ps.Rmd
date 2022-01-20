@@ -9,9 +9,11 @@ menu:
     parent: Problem Sets
     weight: 1
 type: docs
-
 editor_options: 
   chunk_output_type: console
+  
+  
+  
 ---
 ## Welcome
 

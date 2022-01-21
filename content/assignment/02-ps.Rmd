@@ -1,7 +1,7 @@
 ---
 title: "Problem set 2"
 linktitle: "PS 2"
-date: "2022-01-11"
+publishdate: "2022-02-03"
 due_date: "2022-02-17"
 due_time: "2:50 PM"
 menu:

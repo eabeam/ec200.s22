@@ -1,8 +1,8 @@
 ---
-title: "Research Paper: Idea Proposal2"
-linktitle: "02 Idea Proposal"
-date: "2022-01-11"
-due_date: "2022-02-15"
+title: "Research Paper: Annotated Bibliography"
+linktitle: "03 Annotated Bibliography"
+date: "2022-01-15"
+due_date: "2022-03-24"
 due_time: "11:59 PM"
 menu:
   assignment:

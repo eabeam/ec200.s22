@@ -9,7 +9,6 @@ menu:
     parent: Problem Sets
     weight: 3
 type: docs
-
 editor_options: 
   chunk_output_type: console
 ---

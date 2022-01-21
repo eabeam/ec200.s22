@@ -2,7 +2,7 @@
 title: "Research Paper: Annotated Bibliography"
 linktitle: "03 Annotated Bibliography"
 date: "2022-01-15"
-publishdate: "2022-02-15"
+publishdate: "2022-02-24"
 due_date: "2022-03-24"
 due_time: "11:59 PM"
 menu:

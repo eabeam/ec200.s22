@@ -31,22 +31,22 @@ What's the plan?
 |  | 27 Jan | Th | [Statistics review (2.5-2.6, 3)](/content/02-content)|[Read CH2.5-2.6 and CH3, watch video (24:31)](/content/02-content) | [<i class="fas fa-tv"></i> VQ2 (CH3)](https://bb.uvm.edu)   |
 | ||| | ||
 |3 |||**Probability/Statistics Review (CH2/3)**   | ||
-|  | 01 Feb | Tu | [Lab 2: Do-files](/assignment/02-lab) / [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  || [<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)|
+|  | 01 Feb | Tu | [Lab 2: Do-files](/assignment/02-lab) / Review || [<i class="fas fa-laptop-code"></i> Lab 1 due](/assignment/01-lab)|
 |  | 03 Feb | Th | [Exam 1: CH2, 3](/content/03-statsquiz)| |[<i class="fas fa-pencil-alt"></i> PS1 due](/assignment/01-ps) |
 | ||| | ||
 | 4|||**Simple Linear Regression (CH4)**   | | |
 |  | 08 Feb | Tu |[Simple linear regression](/content/04-content/) | [Read CH4, optional video](/content/04-content/)  |[<i class="fas fa-laptop-code"></i> Lab 2 due](/assignment/02-lab)|
-|  | 10 Feb | Th | [Lab 3: Regression in Stata](/assignment/03-lab) |  |  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas)|
+|  | 10 Feb | Th | [Lab 3: Regression in Stata](/assignment/03-lab) <br> [<i class="fas fa-dragon"></i> RP: Identifying a research question](/assignment/rp-01)  |  |  |
 | ||| | ||
 | 5|||**SLR: Hypothesis tests (CH5)**   | | |
-|  | 15 Feb | Tu | [Hypothesis testing](/content/05-content)  | [Read CH5 and watch video, (33:30)](/content/05-content/) |  [<i class="fas fa-tv"></i> VQ3 (CH5)](https://bb.uvm.edu) <br>  [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas) |
+|  | 15 Feb | Tu | [Hypothesis testing](/content/05-content)  | [Read CH5 and watch video, (33:30)](/content/05-content/) |  [<i class="fas fa-tv"></i> VQ3 (CH5)](https://bb.uvm.edu) |
 |  | 17 Feb | Th |[Hypothesis testing](/content/05-content) || [<i class="fas fa-pencil-alt"></i> PS2 due](/assignment/02-ps) <br> [<i class="fas fa-laptop-code"></i> Lab 3 due](/assignment/03-lab)|
 | ||||  | |
 | 6|||**Multiple linear regression (CH6)**   | | |
 |  | 22 Feb | Tu | [Multiple linear regression](/content/06-content/) |[Read CH6 and watch video, (35:12)](/content/06-content/) | [<i class="fas fa-tv"></i> VQ4 (CH6)](https://bb.uvm.edu)|
-|  | 24 Feb | Th| [Lab 4: Multiple regression](/assignment/04-lab) |  | |
+|  | 24 Feb | Th| [Lab 4: Multiple regression](/assignment/04-lab) |  | [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas) |
 | ||||  | |
-| 7|||<i class="fas fa-exclamation"></i> **MLR: Hypothesis tests (CH7)**   | | |
+| 7||| **MLR: Hypothesis tests (CH7)**   | | |
 |  | 01 Mar | Tu | Town Hall Meeting Day (No class) |||
 |  | 03 Mar | Th | [MLR: Hypothesis tests](/content/07-content) |[Read CH7 and optional video](/content/07-content/) |[<i class="fas fa-laptop-code"></i> Lab 4 due](/assignment/04-lab)|
 | ||||  | |

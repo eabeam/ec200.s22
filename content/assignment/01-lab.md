@@ -63,12 +63,12 @@ If you need more help, check out [Stata Resources](/bonus/stata-resources).
 
 ### Logic statements  {#logic-statements .unnumbered}
 
-
+These are some common logical statements
 
 |operation|command|
 | :------------- | :----------: |  
  | and                 |                          \&|
- | or                    |      $|$ (vertical bar, on same key as "/")|
+ | or                    |      \| <br> (vertical bar, on same key as "/")|
  |                         |   |
   |equal to            |                          ==|
  | not equal to       |                           !=|

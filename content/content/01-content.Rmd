@@ -68,7 +68,7 @@ This is the material you should already know, along with supports from [Khan Aca
   - [<i class="fas fa-tv"> </i> Combining random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/combining-random-variables/v/mean-of-sum-and-difference-of-random-variables) *(entire playlist)*
 
 ### SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
-  - **Normal distribution only**, but we'll discuss t-distributions a little bit. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
+  - **Normal distribution only**, ~~but we'll discuss t-distributions a little bit~~. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
   - [<i class="fas fa-tv"> </i> Z-scores](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/measuring-position/v/z-score-introduction)  *(entire playlist)*
   - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/stats-normal-distributions/v/ck12-org-normal-distribution-problems-qualitative-sense-of-normal-distributions) *not explicitly covered, but extremely useful review for intuition*
   - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/normal-distributions-calculations/v/z-table-for-proportion-below) *(entire playlist, walks through all the possible ways of working w/ normal tables)*

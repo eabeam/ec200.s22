@@ -77,11 +77,13 @@ This is the material you should know,  along with supports from [Khan Academy (<
   -  [<i class="fas fa-tv"> </i> Constructing a confidence interval for a population mean](https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-quantitative-means/one-sample-t-interval-mean/v/introduction-to-t-statistics)
 
 
-### SW 3.4 Comparing means from different populations 
-**This is covered in updated slides and class, but *not* in the lecture video below)**
+### ~~SW 3.4 Comparing means from different populations~~ 
+**SKIP**
 
-  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. **Make sure you can use formulas 3.19 and 3.20** 
-  - [<i class="fas fa-tv"> </i> Testing for the differences of two population means](https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-categorical-proportions/idea-significance-tests/v/idea-behind-hypothesis-testing)
+~~**This is covered in updated slides and class, but *not* in the lecture video below)**~~
+
+  ~~Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. **Make sure you can use formulas 3.19 and 3.20**~~
+  ~~[<i class="fas fa-tv"> </i> Testing for the differences of two population means](https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-categorical-proportions/idea-significance-tests/v/idea-behind-hypothesis-testing)~~
 
 ### Skip SW 3.5/3.6
 

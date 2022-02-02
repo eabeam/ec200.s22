@@ -91,12 +91,12 @@ Note that there are superscripted numbers^[See?! Neat! :)  ] throughout the page
     
   b. Is there statistically significant evidence that Florida students perform differently than other students in the United States? How do you know? 
     
-  c. Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95. 
+ <!-- c. Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95. 
     
   (i) First, construct a 95% confidence interval for the **change** in the average test score associated with the prep course.  
     
   (ii) Is there statistically significant evidence that the prep course helped? 
-      
+      --> 
 
 **For the following question, make sure you submit your do-file and log-file alongside your answers!**
 

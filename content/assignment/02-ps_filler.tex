@@ -1,39 +1,9 @@
-\documentclass[11pt]{article}
-
-
-
-
-\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
-\usepackage[T1]{fontenc}
-\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
-
-\usepackage{natbib}
-\usepackage[french,english]{babel}
-\usepackage{numprint}
-\usepackage{multirow}
-\usepackage{rotating}
-\usepackage{fancyhdr}
-\usepackage{booktabs}
-\usepackage{multicol}
-\usepackage{hyperref}\hypersetup{colorlinks=true}
-
-\usepackage{amsmath,amssymb,amsfonts,textcomp}
-\usepackage{color}
-\usepackage{calc}
- \setlength{\tabcolsep}{8pt}
-\usepackage{setspace}
-\onehalfspacing
-\usepackage{longtable}
-\usepackage{graphicx}
-\usepackage[margin=1in]{geometry}
-\setlength{\parindent}{0pt}
-\usepackage[bottom]{footmisc}
-\pagestyle{fancy}
-\usepackage{titlesec}
-\usepackage{lipsum}
-\usepackage{cancel}
-\usepackage{multicol}
-
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -46,44 +16,67 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-
-\titleformat{\section}
-  {\normalfont\Large\scshape\bfseries}{\thesection}{1em}{}
-  \titlespacing{\section}{0pt}{10pt}{0pt}
-\titleformat{\subsection}
-  {\normalfont\bfseries}{\thesection}{1em}{}
-  \titlespacing{\subsection}{0pt}{6pt}{0pt}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Problem set 2},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\newenvironment{itemize*}%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 
-  
-\lhead{EC200 - Econometrics and Applications}
+\title{Problem set 2}
+\author{}
+\date{2022-02-03}
 
-\setlength\parskip{0.10in}
 \begin{document}
-\thispagestyle{plain}
-\singlespacing
+\maketitle
 
+\hypertarget{welcome}{%
+\subsection{Welcome}\label{welcome}}
 
-EC200: Econometrics and Applications\hfill \\
+Make sure you submit your assignment on Blackboard by the deadline
+:point\_up: :point\_up:
 
-%\vspace{1.5cm}
-\begin{center}
-\Large{\textbf{Problem Set 2}}\\
-\end{center}
-\bigskip
-
-
-%{
-%\setcounter{tocdepth}{3}
-%\tableofcontents
-%}
-
-You can download the data file you need for question 4
-\href{https://ec200f22.netlify.app/assignment/collegedistance.dta}{here}.
+See the exercises below, or you can \href{../02-ps.pdf}{download them as
+a pdf}. You can download the data file you need for question 4
+\href{../collegedistance.dta}{here}.
 
 \hypertarget{what-do-i-submit}{%
-\section*{What do I submit?}\label{what-do-i-submit}}
+\subsection{What do I submit?}\label{what-do-i-submit}}
 
 \begin{itemize}
 \tightlist
@@ -101,7 +94,7 @@ You can download the data file you need for question 4
 \end{itemize}
 
 \hypertarget{exercises}{%
-\section*{Exercises}\label{exercises}}
+\subsection{Exercises}\label{exercises}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -259,4 +252,5 @@ where \(e\) is a random variable with \(E(e) = 0\) and
     estimates come from two different samples! A hypothesis test here
     would be awesome, but we need to build a few more skills to do this.}
 \end{enumerate}
+
 \end{document}

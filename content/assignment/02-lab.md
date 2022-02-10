@@ -211,11 +211,11 @@ something in a way we haven't covered.
 
 ### Questions
 
-1.  Download [`acs2014_all.dta`](materials/acs2014_all.dta) and [`labtemplate.do`](materials/labtemplate_f21.do) by clicking the links.
+1.  Download [`acs2014_all.dta`](../materials/acs2014_all.dta)and [`labtemplate_f21.do`](../materials/labtemplate_f21.do) by clicking the links.
 
 2.  Move these files to wherever you store your class materials.
 
-3.  Open `labtemplate_f21.do` and run it. Does it work? Probably not! Fix it. 
+3.  Open [`labtemplate_f21.do`](../materials/labtemplate_f21.do) and run it. Does it work? Probably not! Fix it. 
 
 4.  Drop some variables we don't need right now: `gq`, `serial`, and `hhwt`. How
     many variables remain?

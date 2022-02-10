@@ -22,6 +22,7 @@ editor_options:
  - A hypothesis/hypotheses about that research question
  - Proposed data set (within the [IPUMS](https://www.ipums.org/) universe).
   - For example: "I will use the 1990 and 2000 U.S. Census, focusing on the Northeast." But not: "CPS." 
+  - Happy for you to propose a non-IPUMS research question, but you must include at least **one** IPUMS-based question.
  - A rough plan of analysis. How will you answer your research question? What key varialbes will be important?
  
  All ideas should meet the basic criteria in our [assignment overview](../RP-01#topic-selection) (relevant to economic theory, answerable using data, use cross-sectional or panel data)

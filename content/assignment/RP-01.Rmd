@@ -62,7 +62,7 @@ following.
 -   It may not be an exact replication of previous work. It may,
     however, be an extension.
 
--   It must use *cross-sectional* or *panel* data. There are lots of  interesting time-series questions, but we will not cover these  topics in EC200. You should work with data from  [IPUMS](https://www.ipums.org/).^[I am open to other **large** data sets, but these require prior approval.] 
+-   It must use *cross-sectional* or *panel* data. There are lots of  interesting time-series questions, but we will not cover these  topics in EC200. I highly, highly recommend that work with data from  [IPUMS](https://www.ipums.org/). I am open to other **large** data sets ($n>100$, ideally $n>1000$), but these require prior approval.
 
 
 <!-- **Where folks get into trouble:** The biggest problem I see is that people get very excited about an interesting question, but they don't necessarily have the data they need. In order for us to be able to have reasonable standard errors and good asymptotic properties, I recommend questions that (a) have a data set you can access and (b) have at least 100 observations. I would strongly discourage you from any country or state cross-sections that don't also have a time component. I also would be wary about studies predicting athlete performance - our methods work well, but the link to economics is often tenuous. --> 

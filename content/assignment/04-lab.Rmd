@@ -1,7 +1,7 @@
 ---
 title: "Lab 4: Multivariate Regression"
 linktitle: "Lab 4"
-date: "2022-02-22"
+date: "2022-02-16"
 due_date: "2022-03-03"
 due_time: "2:50 PM"
 menu:
@@ -303,7 +303,7 @@ When we include a dummy variable for every value of a categorical variable, like
     do the inclusion of these factors affect your estimates of the
     relationship between $Y$ and $X$?
     
-    
+<!-- 
 
 ## Video 
     
@@ -312,7 +312,7 @@ When we include a dummy variable for every value of a categorical variable, like
 `r htmltools::HTML("{{< youtube I06HBd1Urec >}}")`
 
 
-   <!--
+
 ### A note on "well-behaved"" residuals {#residuals .unnumbered} 
 
 There are three characteristics of "well-behaved" residuals: 

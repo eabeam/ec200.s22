@@ -1,7 +1,7 @@
 ---
 title: "Problem set 3"
 linktitle: "PS 3"
-date: "2022-03-04"
+date: "2022-02-28"
 due_date: "2022-03-15"
 due_time: "2:50 PM"
 menu:
@@ -50,9 +50,8 @@ editor_options:
 <ol start="3" style="list-style-type: decimal">
 <li><p>Critique each of the following proposed research plans. Your critique should explain any problems with the proposed research and describe how the research plan might be improved. Include discussion of any additional data that needs to be collected, and the appropriate statistical techniques for analyzing those data.</p>
 <ol style="list-style-type: lower-alpha">
-<li>A researcher is interested in determining whether a large aerospace firm is guilty of gender bias in setting wages. To determine potential bias, the researcher collects salary and gender information for all of the firm’s engineers. The researcher then plans to conduct a “difference in means” test to determine whether the average salary for women is significantly less than the average salary for men
-<!-- SW 6.7 --></li>
-<li>A researcher is interested in determining whether time in prison has a permanent effect on a person’s wage rate. He collects data on a random sample of people who have been out of prison for at least 15 years. He collects similar data on a random sample of people who have never served time in prison. The data set includes information on each person’s current wage, education, age, ethnicity, gender, tenure (time in current job), occupation, and union status, as well as whether the person has ever been incarcerated. The researcher plans to estimated the effect of incarceration on wages by regressing wages on an indicator variable for incarceration, including in the regression the other potential determinants of wages such as education, tenure, union status, and so on.</li>
+<li><p>A researcher is interested in determining whether a large aerospace firm is guilty of gender bias in setting wages. To determine potential bias, the researcher collects salary and gender information for all of the firm’s engineers. The researcher then plans to conduct a “difference in means” test to determine whether the average salary for women is significantly less than the average salary for men <!-- SW 6.7 --></p></li>
+<li><p>A researcher is interested in determining whether time in prison has a permanent effect on a person’s wage rate. He collects data on a random sample of people who have been out of prison for at least 15 years. He collects similar data on a random sample of people who have never served time in prison. The data set includes information on each person’s current wage, education, age, ethnicity, gender, tenure (time in current job), occupation, and union status, as well as whether the person has ever been incarcerated. The researcher plans to estimated the effect of incarceration on wages by regressing wages on an indicator variable for incarceration, including in the regression the other potential determinants of wages such as education, tenure, union status, and so on.</p></li>
 </ol></li>
 <li><p>Consider a dataset that contains information on 4700 full-time full-year workers. The highest educational achievement for each worker was either a high school diploma or a bachelor’s degree. The worker’s ages ranged from 25 to 45 years. The data set also contains information on the region of the country where the person lived, marital status, and number of children. See below for variable definitions.</p>
 <ol style="list-style-type: lower-alpha">
@@ -114,12 +113,12 @@ editor_options:
 </ol>
 <p><img src = "../materials/sw7-1.png"></p>
 <ol start="6" style="list-style-type: decimal">
-<li>Download the dataset <a href="../materials/growth.dta">growth.dta</a>, which contains data on average growth rates from 1960 through 1995 for 65 countries, along with variables that are potentially related to growth. You can download a detailed description of all variable names is available <a href="https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf">here</a>. For all questions, exclude Malta, which has an extremely high trade share. Estimate a regression of <code>growth</code> on <code>tradeshare</code>, <code>yearsschool</code>, <code>rev_coups</code>, <code>assassinations</code>, and <code>rgdp60</code>, with heteroskedasticity-robust standard errors.
+<li>Download the dataset <a href="../materials/growth.dta">growth.dta</a>, which contains data on average growth rates from 1960 through 1995 for 65 countries, along with variables that are potentially related to growth. You can download a detailed description of all variable names is available <a href="https://www.princeton.edu/~mwatson/Stock-Watson_3u/Students/EE_Datasets/Growth_Description.pdf">here</a>. For all questions, exclude Malta, which has an extremely high trade share. Estimate a regression of <code>growth</code> on <code>tradeshare</code>, <code>yearsschool</code>, <code>rev_coups</code>, <code>assassinations</code>, and <code>rgdp60</code>, with heteroskedasticity-robust standard errors.</li>
+</ol>
 <ol style="list-style-type: lower-alpha">
 <li>What is the value of the coefficient on <code>rev_coups</code>? Interpret the value of this coefficient. Is it large or small in a real-world sense?</li>
-<li>Use the regression to predict the average annual growth rate for a country has average valeus for all regressors.</li>
-<li>Construct a 90% confidence interval for the coefficient on <code>tradeshare</code>. Is the coefficient statistically significant at the 10% level?
-d.Test whether the political variables <code>rev_coups</code> and <code>assassinations</code>, taken as a group, can be omitted from the regression. What is the p-value of the F-statistic?</li>
-</ol></li>
+<li>Use the regression to predict the average annual growth rate for a country has average values for all regressors.</li>
+<li>Construct a 90% confidence interval for the coefficient on <code>tradeshare</code>. Is the coefficient statistically significant at the 10% level?</li>
+<li>Test whether the political variables <code>rev_coups</code> and <code>assassinations</code>, taken as a group, can be omitted from the regression. What is the p-value of the F-statistic?</li>
 </ol>
 </div>

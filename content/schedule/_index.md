@@ -43,7 +43,7 @@ What's the plan?
 |  | 17 Feb | Th |[Hypothesis testing](/content/05-content) || [<i class="fas fa-pencil-alt"></i> PS2 due](/assignment/02-ps) <br> [<i class="fas fa-laptop-code"></i> Lab 3 due](/assignment/03-lab)|
 | ||||  | |
 | 6|||**Multiple linear regression (CH6)**   | | |
-|  | 22 Feb | Tu | [Multiple linear regression](/content/06-content/) |[Read CH6 and watch video, (35:12)](/content/06-content/) | [<i class="fas fa-tv"></i> VQ4 (CH6)](https://bb.uvm.edu)|
+|  | 22 Feb | Tu | [Multiple linear regression](/content/06-content/) |[ (Optional) read CH6 and watch video, (35:12)](/content/06-content/) | ~~[<i class="fas fa-tv"></i> VQ4 (CH6)](https://bb.uvm.edu)~~ |
 |  | 24 Feb | Th| [Lab 4: Multiple regression](/assignment/04-lab) |  | [<i class="fas fa-dragon"></i> Idea proposal due](/assignment/rp-02-ideas) |
 | ||||  | |
 | 7||| **MLR: Hypothesis tests (CH7)**   | | |

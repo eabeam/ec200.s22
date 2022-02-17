@@ -5,7 +5,7 @@ title: Week 6 - Multiple Linear Regression
 sitetitle: Week 6
 summary: "EC200 - Week 6 Multiple Regression (CH6)"
 
-date: "2022-02-14"
+date: "2022-02-08"
 start_date: "2022-02-21"
 end_date: "2022-02-25"
 

@@ -1,7 +1,7 @@
 ---
 title: "Research Paper: Annotated Bibliography"
 linktitle: "03 Annotated Bibliography"
-date: "2022-01-15"
+
 date: "2022-02-24"
 due_date: "2022-03-24"
 due_time: "11:59 PM"
@@ -31,7 +31,17 @@ The goal of this submission is to help you narrow and refine your question while
 
 ## What do I need to do {#mission .unnumbered} 
 
-Pick the idea you proposed that is most promising. You may refine it based on feedback, further reflection, etc. Based on that idea, you will need to identify and annotate **six** sources that are relevant to your project. At least **four** must be peer-reviewed, academic journal articles. For each one, include the following: 
+Pick the idea you proposed that is most promising. You may refine it based on feedback, further reflection, etc. 
+
+Based on that idea,  identify and annotate **six** sources that are relevant to your project. 
+  - At least **four** must be peer-reviewed, academic journal articles. 
+  - At least **two** must be from the list of economic journals included below. 
+  
+  
+  <img src="../materials/annotate_source.png" width=500  alt="8 total, 4 peer-reviewed, 2 econ journal">
+
+
+  For each one, include the following: 
 
 1. Full bibliographic information, following MLA, APA, or Chicago style. 
 2. The annotations, written as a paragraph or as bullet points. These will include a few things: 
@@ -46,15 +56,19 @@ After this, write an expanded version of your idea proposal (just one the idea y
 
 **Consult the [grading rubric](#rubric) for additional guidance!**
 
+## Acceptable economics journals
+
+At least two article must come from a relevant economics journal in the **top 200** from the following [RePeC list](https://ideas.repec.org/top/top.journals.simple.html). If your topic is very specific, the **top 400** is also acceptable, but you need to get prior approval from me. 
+
 ## Submission requirements {#submission-requirements .unnumbered}
 
-Submit the annotated bibliography plus summary as one document on Blackboard by **October 27 @ 11:59pm**
+Submit the annotated bibliography plus summary as one document on Blackboard.
 
 If you are working in pairs, submit one bibliography for two people. 
 
 ## Tips {#tips .unnumbered}
 
-- Search for your topic using [EconLit](http://library.uvm.edu/research/research_databases). If you at hoome, you can select ["Connect Off Campus"](http://library.uvm.edu/) from the main library page
+- Search for your topic using [EconLit](http://library.uvm.edu/research/research_databases). If you at home, you can select ["Connect Off Campus"](http://library.uvm.edu/) from the main library page
 
 - When determining if an article might be useful, start by focusing on the abstract only. Among those that pass your abstract test, then just read the introduction to see if they are still going to help. 
 
@@ -65,14 +79,14 @@ If you are working in pairs, submit one bibliography for two people.
   <img src="../materials/scholar_cited.png" width=500 alt="works cited">
   
 
-- Note that working paper series are *not* peer-reviewed journal articles. Nor are most reports from large organizations.
+- Note that working paper series are *not* peer-reviewed journal articles. [NBER Working Papers](https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date), for example, are an excellent resoucre but not peer-reviewed. Most reports from large organizations are not peer reviewed.
 
 ## Rubric {#rubric .unnumbered}
 
-I thought a bulleted list would be clearer than a rubric for this assignment: 
+You will receive up to 50 points on this assignment: 
 
-- This assignment is worth 40 points. 
 - Each source is worth 5 points (30 total), with one point per element listed above.
-- At least 4 sources should be from peer-reviewed academic journal articles. The other two can be peer-reviewed articles, working papers, or other reasonable sources. All sources should be relevant and useful (ie. if not useful, don't include!)
 - The idea summary is worth 10 points, with full credit granted if you present your research question, describe in words how you will answer it, and then describe how what you plan to do fits in with the literature you've reviewed. 
+- The final 10 points are for meeting the source selection critera (4 peer-reviewed, 2 top 200 economics journals)
+
 

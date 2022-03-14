@@ -1,7 +1,7 @@
 ---
 title: "Lab 5: Merging and hypothesis tests"
 linktitle: "Lab 5"
-date: "2022-03-13"
+date: "2022-03-12"
 due_date: "2022-03-22"
 due_time: "2:50 PM"
 menu:
@@ -45,7 +45,8 @@ editor_options:
 <div id="objectives" class="section level2 unnumbered">
 <h2>Objectives</h2>
 <p>Today we’re going to keep working with <a href="../materials/cps_2016.dta"><code>cps_2016.dta</code></a>, which
-contains information from the <a href="https://cps.ipums.org/cps/">2016 Current Population Survey</a>. We’re going to merge in county-level unemployment rates from the <a href="https://www.bls.gov/lau/tables.htm">BLS</a></p>
+contains information from the <a href="https://cps.ipums.org/cps/">2016 Current Population Survey</a>.</p>
+<p>We’re going to merge in county-level unemployment rates from the <a href="https://www.bls.gov/lau/tables.htm">BLS</a></p>
 <p>By the end of this lab, you should be able to complete the following
 tasks in Stata:</p>
 <ul>
@@ -204,7 +205,7 @@ you add code to start (and end) a log.</p></li>
 <li><p>Is this regression significant overall? Explain how you know.</p></li>
 <li><p>Now add county-level unemployment rate to the previous equation. What is the interpretation of the coefficient on unemployment? Is it statistically significant?</p></li>
 <li><p>Estimate the same equation by regressing total personal income on the education binary variables and county-level unemployment, restricting to those who are currently in the labor force. How does this change the coefficient on unemployment?</p></li>
-<li><p>Identify three <em>state-level</em> variables that are likely to cause omitted variable bias if you want to know whether unemployment affects individual wages.</p></li>
+<li><p>Identify three <em>state</em> or <em>county-level</em> variables that are likely to cause omitted variable bias if you want to know whether unemployment affects individual wages.</p></li>
 <li><p>For <em>one</em> of the variables you listed above, find the data online, import into Stata, and merge it in.</p></li>
 <li><p>Regress total personal income on the education binary variables, county-level unemployment, and the new variable you found. Restrict your sample to those who are currently in the labor force. How does the inclusion of your new variable affect the coefficient on unemployment?</p></li>
 </ol>

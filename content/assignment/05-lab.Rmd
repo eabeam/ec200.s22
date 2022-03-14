@@ -1,7 +1,7 @@
 ---
 title: "Lab 5: Merging and hypothesis tests"
 linktitle: "Lab 5"
-date: "2022-03-13"
+date: "2022-03-12"
 due_date: "2022-03-22"
 due_time: "2:50 PM"
 menu:
@@ -29,7 +29,9 @@ editor_options:
 
 
 Today we're going to keep working with [`cps_2016.dta`](../materials/cps_2016.dta), which
-contains information from the [2016 Current Population Survey](https://cps.ipums.org/cps/). We're going to merge in county-level unemployment rates from the [BLS](https://www.bls.gov/lau/tables.htm)
+contains information from the [2016 Current Population Survey](https://cps.ipums.org/cps/). 
+
+We're going to merge in county-level unemployment rates from the [BLS](https://www.bls.gov/lau/tables.htm)
 
 
 By the end of this lab, you should be able to complete the following
@@ -164,9 +166,9 @@ list
 
 17. Estimate the same equation by regressing total personal income on     the education binary variables and county-level unemployment,     restricting to those who are currently in the labor force. How does     this change the coefficient on unemployment?
 
-18. Identify three *state-level* variables that are likely to cause     omitted variable bias if you want to know whether unemployment    affects individual wages.
+18. Identify three *state* or *county-level* variables that are likely to cause  omitted variable bias if you want to know whether unemployment    affects individual wages.
 
-19. For *one* of the variables you listed above, find the data online,    import into Stata, and merge it in.
+19. For *one* of the variables you listed above, find the data online, import into Stata, and merge it in.
 
-20. Regress total personal income on the education binary variables,    county-level unemployment, and the new variable you found. Restrict     your sample to those who are currently in the labor force. How does    the inclusion of your new variable affect the coefficient on    unemployment?
+20. Regress total personal income on the education binary variables, county-level unemployment, and the new variable you found. Restrict     your sample to those who are currently in the labor force. How does    the inclusion of your new variable affect the coefficient on    unemployment?
 

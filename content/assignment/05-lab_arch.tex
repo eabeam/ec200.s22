@@ -1,43 +1,13 @@
-\documentclass[11pt]{article}
-
-
-
-
-\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
-\usepackage[T1]{fontenc}
-\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
-
-\usepackage{natbib}
-\usepackage[french,english]{babel}
-\usepackage{numprint}
-\usepackage{multirow}
-\usepackage{rotating}
-\usepackage{fancyhdr}
-\usepackage{booktabs}
-\usepackage{multicol}
-\usepackage{hyperref}\hypersetup{colorlinks=true}
-
-\usepackage{amsmath,amssymb,amsfonts,textcomp}
-\usepackage{color}
-\usepackage{calc}
- \setlength{\tabcolsep}{8pt}
-\usepackage{setspace}
-\onehalfspacing
-\usepackage{longtable}
-\usepackage{graphicx}
-\usepackage[margin=1in]{geometry}
-\setlength{\parindent}{0pt}
-\usepackage[bottom]{footmisc}
-\pagestyle{fancy}
-\usepackage{titlesec}
-\usepackage{lipsum}
-\usepackage{cancel}
-\usepackage{multicol}
-
-\usepackage{amsmath,amssymb}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -46,38 +16,55 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-
-\titleformat{\section}
-  {\normalfont\Large\scshape\bfseries}{\thesection}{1em}{}
-  \titlespacing{\section}{0pt}{10pt}{0pt}
-\titleformat{\subsection}
-  {\normalfont\bfseries}{\thesection}{1em}{}
-  \titlespacing{\subsection}{0pt}{6pt}{0pt}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Lab 5: Merging and hypothesis tests},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\newenvironment{itemize*}%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 
-  
-\lhead{EC200 - Econometrics and Applications}
-\rhead{Version: \today}
-\setlength\parskip{0.10in}
+\title{Lab 5: Merging and hypothesis tests}
+\author{}
+\date{2020-10-14}
+
 \begin{document}
-\thispagestyle{plain}
-\singlespacing
+\maketitle
 
 
-Version: \today \hfill Spring 2022\\
-EC200: Econometrics and Applications
-%\vspace{1.5cm}
-\begin{center}
-\Large{\textbf{Lab 5: Merging and hypothesis tests}}\\
-\end{center}
-\bigskip
-
-
-%{
-%\setcounter{tocdepth}{3}
-%\tableofcontents
-%}
 
 \hypertarget{objectives}{%
 \subsection*{Objectives}\label{objectives}}
@@ -86,10 +73,8 @@ EC200: Econometrics and Applications
 Today we're going to keep working with
 \href{../materials/cps_2016.dta}{\texttt{cps\_2016.dta}}, which contains
 information from the \href{https://cps.ipums.org/cps/}{2016 Current
-Population Survey}.
-
-We're going to merge in county-level unemployment rates from the
-\href{https://www.bls.gov/lau/tables.htm}{BLS}
+Population Survey}. We're going to merge in county-level unemployment
+rates from the \href{https://www.bls.gov/lau/tables.htm}{BLS}
 
 By the end of this lab, you should be able to complete the following
 tasks in Stata:
@@ -109,50 +94,108 @@ tasks in Stata:
 \subsection*{Key commands}\label{key-commands}}
 \addcontentsline{toc}{subsection}{Key commands}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.56}}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.44}}@{}}
+\begin{longtable}[]{@{}lr@{}}
 \toprule
-command & description \\
+\begin{minipage}[b]{0.53\columnwidth}\raggedright
+command\strut
+\end{minipage} & \begin{minipage}[b]{0.41\columnwidth}\raggedleft
+description\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Importing data & \\
-\texttt{import\ excel\ using\ “file1.xlsx”,\ firstrow\ clear} & Import
-the data set file1.xlsx from excel into Stata. The \texttt{firstrow}
-option tells Stata to use the first row as the variable name. The
-\texttt{clear} option tells Stata to erase any data already in the
-set \\
-Identifying duplicates & \\
-\texttt{duplicates\ list\ var1\ var2} & List any observations that are
-duplicates on the listed variables, \emph{var1} \texttt{var2}, etc. \\
-\texttt{duplicates\ tag\ var1\ var2,\ gen(d1)} & Generate a new
-variable, \texttt{d1} that indicates which variables are duplicates for
-\texttt{var1} and \texttt{var2} \\
-Merging datasets & \\
-\texttt{merge\ 1:1\ var1\ var2\ using\ file2} & Perform a one-to-one
-merge based on \texttt{var1} and \texttt{var2}. There cannot be any
-duplicates on the variables you are using to merge \\
-\texttt{merge\ m:1\ var1\ var2\ using\ file2} & Perform a many-to-one
-merge based on \texttt{var1} and \texttt{var2}. There can be duplicate
-identifiers in the master data set (like if merging state data to
-individuals), but there should be no duplicates in the using data set \\
-Converting between string and numeric variables & \\
-\texttt{decode\ var1,\ gen(newvar)} & Take a numeric variable with
-labels and generate a new string variable that is equal to the values of
-those labels. (You can do the opposite with \texttt{encode}). \\
-\texttt{destring\ var1,\ replace} & Take a string variable,
-\texttt{var1} and convert it to a numeric variable, replacing the old
-variable \\
-\texttt{tostring\ var2,\ gen(string\_var)} & Take a numeric variable,
-\texttt{var2} and make it a string, but make that into a new variable
-called \texttt{string\_var} \\
-Statistical tests & \\
-\texttt{test\ var1\ =\ var2} & Run after estimating a regression. Tests
-the null hypothesis that the coefficient on \texttt{var1} equals the
-coefficient on \texttt{var2}, against the two-sided alternative. \\
-\texttt{testparm\ var1\ var2\ ...} & Run after estimating a regression.
-Tests the whether all listed variables, \texttt{var1} , \texttt{var2},
-etc., are jointly equal to zero, against the two-sided alternative. \\
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+Importing data\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{import\ excel\ using\ “file1.xlsx”,\ firstrow\ clear}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Import the data set file1.xlsx from excel into Stata. The
+\texttt{firstrow} option tells Stata to use the first row as the
+variable name. The \texttt{clear} option tells Stata to erase any data
+already in the set\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+Identifying duplicates\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{duplicates\ list\ var1\ var2}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+List any observations that are duplicates on the listed variables,
+\emph{var1} \texttt{var2}, etc.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{duplicates\ tag\ var1\ var2,\ gen(d1)}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Generate a new variable, \texttt{d1} that indicates which variables are
+duplicates for \texttt{var1} and \texttt{var2}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+Merging datasets\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{merge\ 1:1\ var1\ var2\ using\ file2}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Perform a one-to-one merge based on \texttt{var1} and \texttt{var2}.
+There cannot be any duplicates on the variables you are using to
+merge\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{merge\ m:1\ var1\ var2\ using\ file2}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Perform a many-to-one merge based on \texttt{var1} and \texttt{var2}.
+There can be duplicate identifiers in the master data set (like if
+merging state data to individuals), but there should be no duplicates in
+the using data set\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+Converting between string and numeric variables\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{decode\ var1,\ gen(newvar)}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Take a numeric variable with labels and generate a new string variable
+that is equal to the values of those labels. (You can do the opposite
+with \texttt{encode}).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{destring\ var1,\ replace}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Take a string variable, \texttt{var1} and convert it to a numeric
+variable, replacing the old variable\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{tostring\ var2,\ gen(string\_var)}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Take a numeric variable, \texttt{var2} and make it a string, but make
+that into a new variable called \texttt{string\_var}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+Statistical tests\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{test\ var1\ =\ var2}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Run after estimating a regression. Tests the null hypothesis that the
+coefficient on \texttt{var1} equals the coefficient on \texttt{var2},
+against the two-sided alternative.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.53\columnwidth}\raggedright
+\texttt{testparm\ var1\ var2\ ...}\strut
+\end{minipage} & \begin{minipage}[t]{0.41\columnwidth}\raggedleft
+Run after estimating a regression. Tests the whether all listed
+variables, \texttt{var1} , \texttt{var2}, etc., are jointly equal to
+zero, against the two-sided alternative.\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -188,26 +231,6 @@ tab _merge    // check out merge
 
 list
 \end{verbatim}
-
-\texttt{r\ htmltools::HTML("\{\{\textless{}\ youtube\ 8yfXvk8QYy0\ \textgreater{}\}\}")}
-
-\hypertarget{lab-5-worksheet}{%
-\subsection{Lab 5 Worksheet}\label{lab-5-worksheet}}
-
-\hypertarget{what-do-i-submit}{%
-\subsubsection{What do I submit?}\label{what-do-i-submit}}
-
-\begin{itemize}
-\tightlist
-\item
-  Your written up answers to the exercise questions. This can be typed
-  or written out then scanned (or photographed), in any reasonable
-  format.
-\item
-  The do-file you've created that runs this analysis
-\item
-  A log file that contains the results from this exercise.
-\end{itemize}
 
 \hypertarget{exercises}{%
 \subsubsection{Exercises}\label{exercises}}
@@ -321,19 +344,19 @@ list
   statistically significant?
 \item
   Estimate the same equation by regressing total personal income on the
-  education binary variables and county-level unemployment, restricting
+  education binary variables and state-level unemployment, restricting
   to those who are currently in the labor force. How does this change
   the coefficient on unemployment?
 \item
-  Identify three \emph{state} or \emph{county-level} variables that are
-  likely to cause omitted variable bias if you want to know whether
-  unemployment affects individual wages.
+  Identify three \emph{state-level} variables that are likely to cause
+  omitted variable bias if you want to know whether unemployment affects
+  individual wages.
 \item
   For \emph{one} of the variables you listed above, find the data
   online, import into Stata, and merge it in.
 \item
   Regress total personal income on the education binary variables,
-  county-level unemployment, and the new variable you found. Restrict
+  state-level unemployment, and the new variable you found. Restrict
   your sample to those who are currently in the labor force. How does
   the inclusion of your new variable affect the coefficient on
   unemployment?

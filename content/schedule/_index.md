@@ -54,15 +54,15 @@ What's the plan?
 | ||||||
 | ||||  | |
 | 8||| **Exam 2 week**   | | |
-|  | 15 Mar | Tu | [Lab 5: Merging and hypothesis testing](/assignment/05-lab)  |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
+|  | 15 Mar | Tu | Concept reviews |  |[<i class="fas fa-pencil-alt"></i> PS3 due](/assignment/03-ps)|
 |  | 17 Mar | Th |  [Exam 2: CH 4, 5, 6, 7](/content/11-exam1) |  ||
 | ||||  ||
 | 9|||**Non-linear regression (CH8)**   | | |
-|  | 22 Mar | Tu | [Non-linear regression](/content/08-content) | [Read CH8, watch video (TBD)](/content/08-content/)  |[<i class="fas fa-tv"></i> VQ5 (CH8)](https://bb.uvm.edu) <br> [<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab)|
-|  | 24 Mar | Th | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/rp-04-proposal) |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/rp-03-annotated)|
+|  | 22 Mar | Tu | [Non-linear regression](/content/08-content) and [Lab 5: Merging and hypothesis testing](/assignment/05-lab)| [Read CH8, watch video (TBD)](/content/08-content/)  |[<i class="fas fa-tv"></i> VQ5 (CH8)](https://bb.uvm.edu) |
+|  | 24 Mar | Th | [<i class="fas fa-dragon"></i> RP: Writing a paper proposal](/assignment/rp-04-proposal)  |  | [<i class="fas fa-dragon"></i> Annotated bibliography due](/assignment/rp-03-annotated)|
 | ||||  ||
 | 10|||**Assessing regression validity (CH9)**   | | |
-|  | 29 Mar | Tu |[Assessing regression validity](/content/09-content/)  |[Read CH9, optional video](/content/09-content/) | |
+|  | 29 Mar | Tu |[Assessing regression validity](/content/09-content/)  |[Read CH9, optional video](/content/09-content/) | [<i class="fas fa-laptop-code"></i> Lab 5 due](/assignment/05-lab) |
 |  | 31 Mar | Th | [Lab 6: Internal validity and LPM](/assignment/06-lab) | |[<i class="fas fa-pencil-alt"></i> PS4 due](/assignment/04-ps)|
 | ||||  | |
 | 11|||**Panel data methods**   | | |

@@ -6,7 +6,7 @@ sitetitle: Week 9
 summary: "EC200 - Week 9 Hypothesis Testing with Multiple Regression (CH8)"
 
 date: "2022-03-11"
-start_date: "2022-03-18"
+start_date: "2022-03-21"
 end_date: "2022-03-25"
 
   
@@ -38,7 +38,7 @@ Let's make regressions faaaancy, with three new friends: **polynomials**, **loga
 
 #### **SW 8.1** A General Strategy for Modeling Nonlinear Regression Functons
 
-Key takeaway here - thnk about the economic theory and its application to determine the best approach to modeling! 
+Key takeaway here - think about the economic theory and its application to determine the best approach to modeling! 
 
 
 #### **SW 8.2** Nonlinear Functions of a Single Independent Variable 
@@ -61,7 +61,7 @@ Three types of interactions you should know:
 
 ## Videos
 
-*Warning!* The interactions example I work through is ... uninspired. I clearly should not have taken on baseball. I regret it. :flushed: :grimacing: Also, the reason why there are only 3 race/ethnicity categories in the MLB is because in 1993, all players fell into only those three groups!
+This video talks us through polynomial and logarithmic regressions. We will do interactions (SW 8.3) entirely in class. Don't forget to complete [VQ8 on Blackboard!](https://blackboard.uvm.edu)
 
 ### [Video: Nonlinear Reression Functions](https://youtu.be/LAPKh9ib2Tg )
 `r htmltools::HTML("{{< youtube LAPKh9ib2Tg >}}")`

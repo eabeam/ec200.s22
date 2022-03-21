@@ -1,7 +1,8 @@
 ---
 title: "Research Paper: Research Proposal"
 linktitle: "04 Research Proposal"
-date: "2022-03-19"
+
+date: "2022-03-20"
 due_date: "2022-04-14"
 due_time: "2:50 PM"
 menu:

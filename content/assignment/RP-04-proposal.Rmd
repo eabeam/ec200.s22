@@ -1,7 +1,7 @@
 ---
 title: "Research Paper: Research Proposal"
 linktitle: "04 Research Proposal"
-date: "2022-03-24"
+date: "2022-03-20"
 due_date: "2022-04-14"
 due_time: "2:50 PM"
 menu:
@@ -27,9 +27,9 @@ For this assignment, **some basic data work is necessary.** However, you may fin
 
 While our first two assignments were fairly informal, this is a formal paper - meaning that I will pay close attention to not only what ideas you present, but also *how* you present them. Your proposal should be **at least 1200 words** (excluding references) and include the following components:
 
-1.   Introduction that contains (1) a clearly stated research question. What hypotheses are you testing? (2) Motivation - why is this important/interesting?
+1.   Introduction that contains (1) a clearly stated research question. What hypotheses are you testing? (2) Motivation - why is this important/interesting? Include at least 2 sources.
 
-1.   Literature review: discussion of related literature and how your paper fits in
+1.   Literature review: discussion of related literature and how your paper fits in. Include at least 4 peer-reviewed sources (different from introduction sources).
 
 1.   Data description: Description of data set - make sure you include the
     sources! 
@@ -67,11 +67,13 @@ While our first two assignments were fairly informal, this is a formal paper - m
     as possible, outline the tables you plan to include (no numbers
     necessary)
 
-Your annotated bibliography will help you in push forward your motivation and the literature review. 
+
+
+Your annotated bibliography will help you push forward your motivation and the literature review. 
 
 Keep in mind that the more detail you include, the better the feedback you'll receive! A classmate will provide a peer review of your proposal, providing feedback to help you turn your proposal into a final paper
 
-**Consult the [grading rubric](../materials/Proposal_Rubric_f21.pdf) for additional guidance!**
+**Consult the [grading rubric](../materials/Proposal_Rubric.pdf) for additional guidance!**
 
 ## Submission requirements {#submission-requirements .unnumbered}
 

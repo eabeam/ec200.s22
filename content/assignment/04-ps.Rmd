@@ -1,7 +1,7 @@
 ---
 title: "Problem set 4"
 linktitle: "PS 4"
-date: "2022-03-22"
+date: "2022-03-20"
 due_date: "2022-03-31"
 due_time: "2:50 PM"
 menu:

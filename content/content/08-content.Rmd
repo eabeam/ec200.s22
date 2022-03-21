@@ -1,5 +1,3 @@
-
-
 ---
 title: Week 9 - Nonlinear Regression
 sitetitle: Week 9

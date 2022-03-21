@@ -1,5 +1,3 @@
-
-
 ---
 title: Week 10 - Assessing Studies
 sitetitle: Week 10

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  22 OCT 2021 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  21 MAR 2022 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,6 +870,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sl' in size <10.95> not avail
+able
+(Font)              Font shape `T1/FiraSans-OsF/regular/sl' tried instead on in
+put line 235.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sl' in size <10.95> not
+ available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 235.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 235.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -887,10 +898,10 @@ Package rerunfilecheck Info: File `04-ps.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14144 strings out of 478994
- 214685 string characters out of 5858184
+ 14145 strings out of 478994
+ 214711 string characters out of 5858184
  705649 words of memory out of 5000000
- 31318 multiletter control sequences out of 15000+600000
+ 31319 multiletter control sequences out of 15000+600000
  504931 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,88p,242b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -910,7 +921,7 @@ e/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on 04-ps.pdf (2 pages, 241821 bytes).
+Output written on 04-ps.pdf (2 pages, 241603 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream

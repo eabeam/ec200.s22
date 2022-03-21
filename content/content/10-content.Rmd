@@ -1,5 +1,3 @@
-
-
 ---
 title: Week 11/12 - Panel data
 sitetitle: Week 11/12

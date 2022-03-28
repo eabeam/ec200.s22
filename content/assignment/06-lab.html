@@ -24,6 +24,7 @@ editor_options:
 <li><a href="#objectives">Objectives</a></li>
 <li><a href="#key-commands">Key commands</a></li>
 <li><a href="#lpm">Linear Probability Models</a></li>
+<li><a href="#lab-video">Lab Video</a></li>
 <li><a href="#lab-6-worksheet">Lab 6 Worksheet</a>
 <ul>
 <li><a href="#what-do-i-submit">What do I submit?</a></li>
@@ -86,16 +87,16 @@ tasks in Stata:</p>
 </div>
 <div id="lpm" class="section level2 unnumbered">
 <h2>Linear Probability Models</h2>
-<p>What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a <strong>linear probablity model</strong>. There is lots of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus <em>seems</em> to be that usually, we’re okay using a LPM. (Though we can do better!)</p>
+<p>What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a <strong>linear probablity model</strong>. There is plenty of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus <em>seems</em> to be that usually, we’re okay using a LPM. (Though we can do better!)</p>
 <p>What about interpretation? We intrepret coefficients are in <strong>percentage points</strong> (not percents!)</p>
 <p>Consider the following to see:</p>
 <p><span class="math inline">\(Married_i = \beta_0 + \beta_1 age_i + \beta_2 educ_i + u_i\)</span></p>
-<p><span class="math inline">\(\beta_1\)</span> means that a 1-year increase in age is associated with a <span class="math inline">\(\beta_1\)</span> <strong>percentage-point change</strong> in the probability of being married.</p>
+<p><span class="math inline">\(\beta_1\)</span> means that a 1-year increase in age is associated with a 100*<span class="math inline">\(\beta_1\)</span> <strong>percentage-point change</strong> in the probability of being married. So if <span class="math inline">\(\beta_1\)</span> is 0.05, that means that being one year older is associated with a 5 percentage point increase in the likelihood of being married.</p>
 <p>For great slides on this (and a deeper dive), check out <a href="https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html">this resource</a>!</p>
-<!--
-## [Video: Class Recording 03 November 2021](https://youtu.be/ljNrBLtfeSc)
-`{{< youtube ljNrBLtfeSc >}}`{=html}
--->
+</div>
+<div id="lab-video" class="section level2">
+<h2>Lab Video</h2>
+<p>{{< youtube tpYknYpmjRU >}}</p>
 </div>
 <div id="lab-6-worksheet" class="section level2">
 <h2>Lab 6 Worksheet</h2>
@@ -131,15 +132,15 @@ you add code to start (and end) a log.</p></li>
 <li><p>What is the impact of being in the labor force on wage income? Based on this and the previous question, what is the implication for the direction of omitted variable bias when you estimated <span class="math inline">\(incwage = \beta_0 + \beta_1 female + u\)</span> without controlling for labor force participation status?</p></li>
 <li><p>Re-estimate the previous regression, including a control for <code>lf</code>: <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_2 lf + u\)</span>. Was your prediction in part (7) correct?</p></li>
 <li><p>Now, add your cleaned variable for usual hours worked to estimate <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_2 lf + \beta_3 uhrsworkly + u\)</span>. What is the interpretation of each coefficient?</p></li>
-<li><p>Why does your regression not include all 73,850 people? What type of bias might this introduce?</p></li>
+<li><p>Why does your regression not include all 73,950 people? What type of bias might this introduce?</p></li>
 <li><p>Is measurement error likely to be important in the previous regression, and if so, for which variables? What is the likely impact of measurement error on your estimated coefficients?</p></li>
 <li><p>Generate a new variable <code>uhrsNZ</code> that recodes all missing work hours values as zeros. You can expedite this with the <code>clonevar</code> command, which retains variable lables. Re-estimate the impact of gender, labor force status and <code>uhrsNZ</code> on wage income (<code>incwage</code>). That is, you’re replacing <code>uhrsworkly</code> with <code>uhrsNZ</code>. What is the interpretation on <em>each</em> coefficient? Why did it change?</p></li>
 <li><p>Now, re-estimate but exclude <code>lf</code>: <span class="math inline">\(incwage = \beta_0 + \beta_1 female + \beta_3 uhrsNZ + u\)</span>. How do your results change? Conditional on including <code>female</code> and <code>uhrsNZ</code>, does it make sense to include <code>lf</code>?</p></li>
 <li><p>Create a new variable that estimates log wages: <code>l_incwage = log(incwage)</code>. Estimate the impact of gender on logged wage income, including a control for <code>uhrsworkly</code>. How does the sample size change, and why? What is the interpretation on each coefficient?</p></li>
-<li><p>Using the cleaned variables, calculate hourly wages based on <code>incwage</code> and <code>uhoursworkly</code>. What are mean hourly wages for men and women?</p></li>
+<li><p>Using the cleaned variables, calculate hourly wages, <code>hourwage</code>, based on <code>incwage</code> and <code>uhoursworkly</code>. Assume that people work 50 weeks in one year. What are mean hourly wages for men and women?</p></li>
 <li><p>Estimate the impact of gender on hourly wages for those with non-zero hourly wages, controlling for weekly work hours. Repeat to include all adults by replacing hourly wages with 0 for non-earners. How does the impact of gender on earnings compare between the two regressions?</p></li>
-<li><p>Are there outlier wages? Exclude observations that exceed the 99th percentile in wages based on <code>incwage</code>, and re-estimate both equations. How does this affect your results?</p></li>
-<li><p>Is measurement error likely to affect your dependent variable? Why or why not? If so, what are the implications?</p></li>
+<li><p>Do outliers affect your results? Exclude observations that exceed the 99th percentile in wages based on <code>incwage</code>, and re-estimate both equations. How do your results change?</p></li>
+<li><p>Is measurement error likely to affect your dependent variable, <code>hourwage</code>? Why or why not? If so, what are the implications?</p></li>
 </ol>
 </div>
 </div>

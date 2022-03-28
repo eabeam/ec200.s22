@@ -54,7 +54,7 @@ tasks in Stata:
 
 ## Linear Probability Models {#lpm .unnumbered}
 
-What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a **linear probablity model**. There is lots of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus *seems* to be that usually, we're okay using a LPM. (Though we can do better!)
+What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a **linear probablity model**. There is plenty of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus *seems* to be that usually, we're okay using a LPM. (Though we can do better!)
 
 What about interpretation? We intrepret coefficients are in **percentage points** (not percents!)
 
@@ -62,15 +62,15 @@ Consider the following to see:
 
 $Married_i = \beta_0 + \beta_1 age_i + \beta_2 educ_i + u_i$
 
-$\beta_1$ means that a 1-year increase in age is associated with a $\beta_1$ **percentage-point change** in the probability of being married. 
+$\beta_1$ means that a 1-year increase in age is associated with a 100*$\beta_1$ **percentage-point change** in the probability of being married. So if $\beta_1$ is 0.05, that means that being one year older is associated with a 5 percentage point increase in the likelihood of being married.
 
 
 For great slides on this (and a deeper dive), check out [this resource](https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html)!
 
-<!--
-## [Video: Class Recording 03 November 2021](https://youtu.be/ljNrBLtfeSc)
-`r htmltools::HTML("{{< youtube ljNrBLtfeSc >}}")`
---> 
+
+## Lab Video
+`r htmltools::HTML("{{< youtube tpYknYpmjRU >}}")`
+
 
 ## Lab 6 Worksheet
 ### What do I submit?
@@ -117,7 +117,7 @@ For great slides on this (and a deeper dive), check out [this resource](https://
 
 9. Now, add your cleaned variable for usual hours worked to estimate $incwage = \beta_0 + \beta_1 female + \beta_2 lf + \beta_3 uhrsworkly + u$. What is the interpretation of each coefficient?
 
-10. Why does your regression not include all 73,850 people? What type of bias might this introduce?
+10. Why does your regression not include all 73,950 people? What type of bias might this introduce?
 
 
 11.  Is measurement error likely to be important in the previous regression, and if so, for which variables? What is the likely impact of measurement error on your estimated coefficients?
@@ -129,13 +129,13 @@ For great slides on this (and a deeper dive), check out [this resource](https://
 
 11.  Create a new variable that estimates log wages: `l_incwage = log(incwage)`. Estimate the impact of gender on logged wage income, including a control for `uhrsworkly`. How does the sample size change, and why? What is the interpretation on each coefficient? 
 
-12. Using the cleaned variables, calculate hourly wages based on `incwage` and `uhoursworkly`. What are mean hourly wages for men and women? 
+12. Using the cleaned variables, calculate hourly wages, `hourwage`, based on `incwage` and `uhoursworkly`. Assume that people work 50 weeks in one year. What are mean hourly wages for men and women? 
 
 13. Estimate the impact of gender on hourly wages for those with non-zero hourly wages, controlling for weekly work hours.  Repeat to include all adults by replacing hourly wages with 0 for non-earners. How does the impact of gender on earnings compare between the two regressions? 
 
-14. Are there outlier wages? Exclude observations that exceed the 99th percentile in wages based on `incwage`, and re-estimate both equations. How does this affect your results?
+14. Do outliers affect your results? Exclude observations that exceed the 99th percentile in wages based on `incwage`, and re-estimate both equations. How do your results change?
 
-14. Is measurement error likely to affect your dependent variable? Why or why not? If so, what are the implications? 
+14. Is measurement error likely to affect your dependent variable, `hourwage`? Why or why not? If so, what are the implications? 
 
 
 

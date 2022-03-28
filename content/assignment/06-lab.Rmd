@@ -1,7 +1,7 @@
 ---
 title: "Lab 6: Internal validity and LPM"
 linktitle: "Lab 6"
-date: "2022-03-29"
+date: "2022-03-28"
 due_date: "2022-04-07"
 due_time: "2:50 PM"
 menu:
@@ -16,7 +16,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-*November 4, 2021: Updated text because it was written oddly!* 
+
 
 **[Print-friendly pdf](../06-lab.pdf)**
 
@@ -80,7 +80,7 @@ For great slides on this (and a deeper dive), check out [this resource](https://
    -  A log file that contains the results from this exercise.
 
 ### Exercises
-https://youtu.be/ljNrBLtfeSc
+
 
 
 1.  Open Stata, start a new do-file (or bring in a template). Make sure

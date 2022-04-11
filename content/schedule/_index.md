@@ -67,10 +67,10 @@ What's the plan?
 | ||||  | |
 | 11|||**Panel data methods**   | | |
 |  | 05 Apr | Tu | [Panel data methods](/content/10-content)  | [Read CH10, watch video (16:17)](/content/10-content/)  |[<i class="fas fa-tv"></i> VQ6 (CH10)](https://bb.uvm.edu)|
-|  | 07 Apr | Th | [Panel data methods](/content/10-content)  |  |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
+|  | 07 Apr | Th | [Lab 7: Diff-in-diff and panel data](/assignment/07-lab)  |  |[<i class="fas fa-laptop-code"></i> Lab 6 due](/assignment/06-lab)|
 | ||||  | |
 |12 |||**Panel data methods, II**   | | |
-|  | 12 Apr | Tu | [Lab 7: Diff-in-diff and panel data](/assignment/07-lab) | ||
+|  | 12 Apr | Tu | In-class workday/consultations | ||
 |  | 14 Apr | Th | [RP: Peer review](/assignment/rp-05-referee) | |[<i class="fas fa-dragon"></i> Proposal due](/assignment/rp-04-proposal)|
 | ||||  | |
 |13 |||**Research Week**   | | |

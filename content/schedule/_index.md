@@ -85,7 +85,8 @@ What's the plan?
 |  | 03 May | Tu | [Paper presentations](/assignment/rp-07-presentation)  |  | |
 |  | 05 May | Th | [Paper presentations](/assignment/rp-07-presentation)  |  |[<i class="fas fa-laptop-code"></i>Lab 8 due](/assignment/08-lab) |
 | 16|||**Exam Week**   | | |
-|  | 12 May | Th | [Exam 3: CH 8, 9, 10, 12](/content/13-exam3) May 12, 1:30-4:15 |  | [Final paper due](/assignment/rp-08-final-submission)|
+| |10|Tu| | | [Final paper due](/assignment/rp-08-final-submission) @ 11:59pm |
+|  | 12 May | Th | [Exam 3: CH 8, 9, 10, 12](/content/13-exam3) <br>  May 12, 1:30-4:15 |  |  |
 
 
 Not going to make it? For intermediate research paper assignments, make sure to review the [extensions for all](/syllabus/#deadlines-and-extensions) policy!

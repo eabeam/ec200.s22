@@ -10,26 +10,50 @@ menu:
     weight: 4
     
 type: docs
+
+output:
+  blogdown::html_page:
+    toc: true
 ---
-*Guidelines and tips for papers**
+# Guidelines and tips for papers
 
--   Active voice
+-   A research paper is not an essay!
 
--   First-person singular/plural (as appropriate)
+    -   Personal opinions don't have a place
 
--   Paper divided numbered, labeled sections.
+    -   Sources should be primarily academic (peer-reviewed journals,
+        working papers, etc.), maybe some non-academic sources for
+        motivation only
 
--   No personal opinions
+    -   Divide your paper into labeled sections
 
--   Present tense
+-   Present tense when describing what people find and what you find.
 
-**Abstract & Title**
+-   **First-person** active voice! (I estimate a regression, **NOT** "A
+    regression is estimated")
+
+    -   Single-authored paper first person singular, "I." (You're not
+        the queen!)
+
+    -   Joint-authored paper first person plural, "we."
+
+    -   Don't believe me? Check out any economics paper published in the
+        past 20 years. There's *some* variation in I vs. we, but *all*
+        use active voice.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1514958035856334848')
+```
+
+
+
+## Abstract & Title
 
 -   Descriptive title included
 
 -   200 words or less abstract
 
-**Introduction**
+## Introduction 
 
 -   States your research question clearly
 
@@ -46,7 +70,17 @@ type: docs
 
 -   Reader can infer all main points of paper just from introduction
 
-**Motivation/Literature Review**
+## Motivation/Literature Review 
+
+
+-   At the back of your mind, when motivating your paper, ask "what is
+    the link to economics"?
+
+    -   If studying discrimination, what does economic theory tell us
+        about why discrimination exists/persists
+
+    -   If studying stock market returns, what do economic models tell
+        us about our ability to predict returns?
 
 -   Includes papers that have answered your research question (or
     similar research question)
@@ -59,11 +93,11 @@ type: docs
 
     -   For example,
 
-**Methodology/Data**
+## Methodology/Data 
 
 -   Data source described and cited
 
--   Population model written out
+-   Population model written out (you can use the Equation Editor in Word)
 
     -   Use proper equation notation (betas, u, etc)
 
@@ -73,13 +107,17 @@ type: docs
 
     -   Use "real names" to describe variables when possible (ie use
         *female* for women, not *w1*)
+        
+    -   Don't forget the error term!
 
 -   Describe your methodology. Are you estimating a model using OLS? If
     so, say so.
 
 -   Correct standard errors: robust? Clustered? Something else?
 
-**Results**
+
+
+## Results 
 
 -   When using categorical/dummy variables, what is your omitted
     category? Make sure you know and that it's clear.
@@ -93,7 +131,7 @@ type: docs
     set and stick to a reasonable number of significant digits. There's
     no place for a number like 0.05403823 or 0.0000000 in your tables.
 
-**Tables and Figures**
+## Tables and Figures 
 
 -   Tables should be properly formatted. That is, they should be made in
     Excel (or LaTeX) and NEVER copied and pasted out of Stata
@@ -105,9 +143,10 @@ type: docs
     Figure 1, Figure 2, etc.) and should also be given a title. Refer to
     tables by their numbers in the text.
 
--   
 
-**References**
+
+
+## References 
 
 -   Use footnotes rather than endnotes
 
@@ -119,8 +158,10 @@ type: docs
 
 -   In-text, cite with author and year (Author, Year; Author, Year) or
     (Author Year, Author Year)
+    
 
-**Working with data**
+
+# Working with data 
 
 If you're working with people
 
@@ -135,110 +176,6 @@ If you're working with people
     working age, all those who are in the labor force, or all who are
     employed?
 
-**[\
-]{.ul}**
 
-**[Checklist for papers:]{.ul}**
 
-**General**
 
--   First-person active voice! (I estimate a regression, **NOT** "A
-    regression is estimated")
-
-    -   Single-authored paper first person singular, "I." (You're not
-        the queen!)
-
-    -   Joint-authored paper first person plural, "we."
-
-    -   Don't believe me? Check out any economics paper published in the
-        past 20 years. There's *some* variation in I vs. we, but *all*
-        use active voice.
-
--   Paper divided numbered, labeled sections.
-
--   At the back of your mind, when motivating your paper, ask "what is
-    the link to economics"?
-
-    -   If studying discrimination, what does economic theory tell us
-        about why discrimination exists/persists
-
-    -   If studying stock market returns, what do economic models tell
-        us about our ability to predict returns?
-
--   A research paper is not an essay!
-
-    -   Personal opinions don't have a place
-
-    -   Sources should be primarily academic (peer-reviewed journals,
-        working papers, etc.), maybe some non-academic sources for
-        motivation only
-
-    -   Clear, labeled sections
-
-**Abstract & Title**
-
--   Include a title
-
--   Abstract should be 200 words or less and serve as summary of paper,
-    including motivation, empirical strategy, findings.
-
-**Introduction**
-
--   Introduction reads like an academic article. Motivates, describes
-    what you do and what you find. (Almost like a mini-paper!)
-
--   
-
-**Methodology/Data**
-
--   Describe the data you use, where did it come from? If you didn't
-    create it, cite it
-
--   Write out the population model you estimate. If you're using Word,
-    use equation editor. Make it look nice. Don't forget the error term
-
--   Describe your methodology. Are you estimating a model using OLS? If
-    so, say so.
-
--   Correct standard errors: robust? Clustered? Something else?
-
-**Results**
-
--   When using categorical/dummy variables, what is your omitted
-    category? Make sure you know and that it's clear.
-
--   What are the units of your measures?
-
-    -   Is that percent or percentage points?
-
--   In most contexts, about 3 places past the decimal point is right,
-    but it depends on the magnitudes. If you really want to be precise,
-    set and stick to a reasonable number of significant digits. There's
-    no place for a number like 0.05403823 or 0.0000000 in your tables.
-
-**Tables and Figures**
-
--   Tables should be properly formatted. That is, they should be made in
-    Excel or LaTeX, and NEVER copied and pasted out of Stata
-
--   Variables should be described using real words. Ie, "number of
-    children," not "numchld."
-
--   Tables and figures should be numbered (Table 1, Table 2, etc...
-    Figure 1, Figure 2, etc.) and should also be given a title. Refer to
-    tables by their numbers in the text.
-
--   
-
-**References**
-
--   At the end of your paper, include list of references cited
-
--   You can format using APA, MLA, or Chicago style
-
-    -   Citation Owl?
-
-    -   Google Scholar will do it for you
-
--   In-text, cite with author and year (Author, Year; Author, Year) or
-    (Author Year, Author Year)

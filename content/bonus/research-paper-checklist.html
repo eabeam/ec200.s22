@@ -10,25 +10,63 @@ menu:
     weight: 4
     
 type: docs
+
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
-
-<p>*Guidelines and tips for papers**</p>
+<div id="TOC">
 <ul>
-<li><p>Active voice</p></li>
-<li><p>First-person singular/plural (as appropriate)</p></li>
-<li><p>Paper divided numbered, labeled sections.</p></li>
-<li><p>No personal opinions</p></li>
-<li><p>Present tense</p></li>
+<li><a href="#guidelines-and-tips-for-papers">Guidelines and tips for papers</a>
+<ul>
+<li><a href="#abstract-title">Abstract &amp; Title</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#motivationliterature-review">Motivation/Literature Review</a></li>
+<li><a href="#methodologydata">Methodology/Data</a></li>
+<li><a href="#results">Results</a></li>
+<li><a href="#tables-and-figures">Tables and Figures</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+<li><a href="#working-with-data">Working with data</a></li>
 </ul>
-<p><strong>Abstract &amp; Title</strong></p>
+</div>
+
+<div id="guidelines-and-tips-for-papers" class="section level1">
+<h1>Guidelines and tips for papers</h1>
+<ul>
+<li><p>A research paper is not an essay!</p>
+<ul>
+<li><p>Personal opinions don’t have a place</p></li>
+<li><p>Sources should be primarily academic (peer-reviewed journals,
+working papers, etc.), maybe some non-academic sources for
+motivation only</p></li>
+<li><p>Divide your paper into labeled sections</p></li>
+</ul></li>
+<li><p>Present tense when describing what people find and what you find.</p></li>
+<li><p><strong>First-person</strong> active voice! (I estimate a regression, <strong>NOT</strong> “A
+regression is estimated”)</p>
+<ul>
+<li><p>Single-authored paper first person singular, “I.” (You’re not
+the queen!)</p></li>
+<li><p>Joint-authored paper first person plural, “we.”</p></li>
+<li><p>Don’t believe me? Check out any economics paper published in the
+past 20 years. There’s <em>some</em> variation in I vs. we, but <em>all</em>
+use active voice.</p></li>
+</ul></li>
+</ul>
+<p>{{% tweet "1514958035856334848" %}}</p>
+<div id="abstract-title" class="section level2">
+<h2>Abstract &amp; Title</h2>
 <ul>
 <li><p>Descriptive title included</p></li>
 <li><p>200 words or less abstract</p></li>
 </ul>
-<p><strong>Introduction</strong></p>
+</div>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
 <ul>
 <li><p>States your research question clearly</p></li>
 <li><p>Explains what economic theory says about the potential answers to
@@ -39,8 +77,18 @@ your questions, and/or defines clear hypotheses that you test</p></li>
 <li><p>Describe how it contributes</p></li>
 <li><p>Reader can infer all main points of paper just from introduction</p></li>
 </ul>
-<p><strong>Motivation/Literature Review</strong></p>
+</div>
+<div id="motivationliterature-review" class="section level2">
+<h2>Motivation/Literature Review</h2>
 <ul>
+<li><p>At the back of your mind, when motivating your paper, ask “what is
+the link to economics”?</p>
+<ul>
+<li><p>If studying discrimination, what does economic theory tell us
+about why discrimination exists/persists</p></li>
+<li><p>If studying stock market returns, what do economic models tell
+us about our ability to predict returns?</p></li>
+</ul></li>
 <li><p>Includes papers that have answered your research question (or
 similar research question)</p></li>
 <li><p>Research results described in present tense (“Smith finds,” not
@@ -51,22 +99,27 @@ research question)</p>
 <li>For example,</li>
 </ul></li>
 </ul>
-<p><strong>Methodology/Data</strong></p>
+</div>
+<div id="methodologydata" class="section level2">
+<h2>Methodology/Data</h2>
 <ul>
 <li><p>Data source described and cited</p></li>
-<li><p>Population model written out</p>
+<li><p>Population model written out (you can use the Equation Editor in Word)</p>
 <ul>
 <li><p>Use proper equation notation (betas, u, etc)</p></li>
 <li><p>Use appropriate subscripts (<em>i, t, y, etc)</em></p></li>
 <li><p>All relevant variables explained/defined</p></li>
 <li><p>Use “real names” to describe variables when possible (ie use
 <em>female</em> for women, not <em>w1</em>)</p></li>
+<li><p>Don’t forget the error term!</p></li>
 </ul></li>
 <li><p>Describe your methodology. Are you estimating a model using OLS? If
 so, say so.</p></li>
 <li><p>Correct standard errors: robust? Clustered? Something else?</p></li>
 </ul>
-<p><strong>Results</strong></p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
 <ul>
 <li><p>When using categorical/dummy variables, what is your omitted
 category? Make sure you know and that it’s clear.</p></li>
@@ -79,7 +132,9 @@ but it depends on the magnitudes. If you really want to be precise,
 set and stick to a reasonable number of significant digits. There’s
 no place for a number like 0.05403823 or 0.0000000 in your tables.</p></li>
 </ul>
-<p><strong>Tables and Figures</strong></p>
+</div>
+<div id="tables-and-figures" class="section level2">
+<h2>Tables and Figures</h2>
 <ul>
 <li><p>Tables should be properly formatted. That is, they should be made in
 Excel (or LaTeX) and NEVER copied and pasted out of Stata</p></li>
@@ -88,9 +143,10 @@ children,” not “numchld.”</p></li>
 <li><p>Tables and figures should be numbered (Table 1, Table 2, etc…
 Figure 1, Figure 2, etc.) and should also be given a title. Refer to
 tables by their numbers in the text.</p></li>
-<li></li>
 </ul>
-<p><strong>References</strong></p>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
 <ul>
 <li><p>Use footnotes rather than endnotes</p></li>
 <li><p>At the end of your paper, include list of references cited</p></li>
@@ -101,7 +157,10 @@ tables by their numbers in the text.</p></li>
 <li><p>In-text, cite with author and year (Author, Year; Author, Year) or
 (Author Year, Author Year)</p></li>
 </ul>
-<p><strong>Working with data</strong></p>
+</div>
+</div>
+<div id="working-with-data" class="section level1">
+<h1>Working with data</h1>
 <p>If you’re working with people</p>
 <ul>
 <li><p>What is the age range you want in your sample?</p></li>
@@ -112,93 +171,4 @@ immigrants?</p></li>
 working age, all those who are in the labor force, or all who are
 employed?</p></li>
 </ul>
-<p><strong><u><br />
-</u></strong></p>
-<p><strong><u>Checklist for papers:</u></strong></p>
-<p><strong>General</strong></p>
-<ul>
-<li><p>First-person active voice! (I estimate a regression, <strong>NOT</strong> “A
-regression is estimated”)</p>
-<ul>
-<li><p>Single-authored paper first person singular, “I.” (You’re not
-the queen!)</p></li>
-<li><p>Joint-authored paper first person plural, “we.”</p></li>
-<li><p>Don’t believe me? Check out any economics paper published in the
-past 20 years. There’s <em>some</em> variation in I vs. we, but <em>all</em>
-use active voice.</p></li>
-</ul></li>
-<li><p>Paper divided numbered, labeled sections.</p></li>
-<li><p>At the back of your mind, when motivating your paper, ask “what is
-the link to economics”?</p>
-<ul>
-<li><p>If studying discrimination, what does economic theory tell us
-about why discrimination exists/persists</p></li>
-<li><p>If studying stock market returns, what do economic models tell
-us about our ability to predict returns?</p></li>
-</ul></li>
-<li><p>A research paper is not an essay!</p>
-<ul>
-<li><p>Personal opinions don’t have a place</p></li>
-<li><p>Sources should be primarily academic (peer-reviewed journals,
-working papers, etc.), maybe some non-academic sources for
-motivation only</p></li>
-<li><p>Clear, labeled sections</p></li>
-</ul></li>
-</ul>
-<p><strong>Abstract &amp; Title</strong></p>
-<ul>
-<li><p>Include a title</p></li>
-<li><p>Abstract should be 200 words or less and serve as summary of paper,
-including motivation, empirical strategy, findings.</p></li>
-</ul>
-<p><strong>Introduction</strong></p>
-<ul>
-<li><p>Introduction reads like an academic article. Motivates, describes
-what you do and what you find. (Almost like a mini-paper!)</p></li>
-<li></li>
-</ul>
-<p><strong>Methodology/Data</strong></p>
-<ul>
-<li><p>Describe the data you use, where did it come from? If you didn’t
-create it, cite it</p></li>
-<li><p>Write out the population model you estimate. If you’re using Word,
-use equation editor. Make it look nice. Don’t forget the error term</p></li>
-<li><p>Describe your methodology. Are you estimating a model using OLS? If
-so, say so.</p></li>
-<li><p>Correct standard errors: robust? Clustered? Something else?</p></li>
-</ul>
-<p><strong>Results</strong></p>
-<ul>
-<li><p>When using categorical/dummy variables, what is your omitted
-category? Make sure you know and that it’s clear.</p></li>
-<li><p>What are the units of your measures?</p>
-<ul>
-<li>Is that percent or percentage points?</li>
-</ul></li>
-<li><p>In most contexts, about 3 places past the decimal point is right,
-but it depends on the magnitudes. If you really want to be precise,
-set and stick to a reasonable number of significant digits. There’s
-no place for a number like 0.05403823 or 0.0000000 in your tables.</p></li>
-</ul>
-<p><strong>Tables and Figures</strong></p>
-<ul>
-<li><p>Tables should be properly formatted. That is, they should be made in
-Excel or LaTeX, and NEVER copied and pasted out of Stata</p></li>
-<li><p>Variables should be described using real words. Ie, “number of
-children,” not “numchld.”</p></li>
-<li><p>Tables and figures should be numbered (Table 1, Table 2, etc…
-Figure 1, Figure 2, etc.) and should also be given a title. Refer to
-tables by their numbers in the text.</p></li>
-<li></li>
-</ul>
-<p><strong>References</strong></p>
-<ul>
-<li><p>At the end of your paper, include list of references cited</p></li>
-<li><p>You can format using APA, MLA, or Chicago style</p>
-<ul>
-<li><p>Citation Owl?</p></li>
-<li><p>Google Scholar will do it for you</p></li>
-</ul></li>
-<li><p>In-text, cite with author and year (Author, Year; Author, Year) or
-(Author Year, Author Year)</p></li>
-</ul>
+</div>

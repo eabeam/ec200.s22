@@ -91,9 +91,9 @@ blogdown::shortcode('tweet', '1514958035856334848')
 -   Papers linked clearly to their contribution (as relates to your
     research question)
 
-    -   For example,
 
-## Methodology/Data 
+
+## Methodology, data, and empirical specification
 
 -   Data source described and cited
 
@@ -115,7 +115,7 @@ blogdown::shortcode('tweet', '1514958035856334848')
 
 -   Correct standard errors: robust? Clustered? Something else?
 
-
+Please enjoy this [empirical specification handout!](../ec200_empirical_specification.pdf)
 
 ## Results 
 

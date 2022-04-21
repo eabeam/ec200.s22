@@ -86,12 +86,6 @@ If you are using multiple specifications, then you have two options:
 
 Download sample [code](../practice/EC200-12-02-example1.do), which uses [`graduation.dta`](../practice/graduation.dta)
 
-
-### Video 
-`r htmltools::HTML("{{< youtube 0BBETxa-2Jw >}}")`
-
-
-
 ## Introductions and conclusions 
 
 ### The introduction formula 
